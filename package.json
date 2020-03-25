@@ -1,8 +1,8 @@
 {
-  "name": "EleventyOne",
-  "version": "3.0.0",
-  "description": "A project bootstrap for Eleventy sites. With pipelines for PostCSS, JavaScript, and serverless functions",
-  "author": "Phil Hawksworth",
+  "name": "leslie-dot-dev",
+  "version": "1.0.0",
+  "description": "Design-minded frontend engineer with experience delivering responsive apps and websites that increase conversions, deligh users, and win awards",
+  "author": "Leslie Cohn-Wein",
   "license": "MIT",
   "scripts": {
     "start": "npm run dev",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/philhawksworth/eleventyone"
+    "url": "https://github.com/lesliecdubs/leslie.dev"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
     "autoprefixer": "^9.6.0",
     "axios": "^0.19.0",
@@ -30,10 +30,14 @@
     "postcss-mixins": "^6.2.1",
     "postcss-simple-vars": "^5.0.2",
     "precss": "^4.0.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-strict-value": "^1.1.8",
     "uglify-js": "^3.6.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "cross-env": "5.2.0"
+    "cross-env": "5.2.0",
+    "stylelint": "^13.2.1",
+    "stylelint-order": "^4.0.0"
   }
 }
