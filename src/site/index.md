@@ -1,25 +1,17 @@
 ---
-title: EleventyOne
-subtitle: A project scaffold for getting building with Eleventy quickly.<br /> Made by <a href="https://twitter.com/philhawksworth">Phil</a> for <a href="https://twitter.com/philhawksworth">Phil</a>, but perhaps you might also find it useful.
-layout: layouts/base.njk
+subtitle: Senior Frontend Engineer at <a href="http://www.netlify.com" target="_blank">Netlify</a> working remote from Dallas.<br />Former agency dev at <a href="http://canvasunited.com" target="_blank">Canvas United</a> and IBM IX in NYC.<br/>Pronounced CONE🍦-wine🍷. She/her.
+layout: layouts/home.njk
 ---
 
+## Speaking
 
-## This site is a starting point
+I spend most of my time building, but every once in a while I say things:
 
-From this point we should already have:
+- 🎧 [Full Stack Radio](http://www.fullstackradio.com/124): "Designing the User Interface at Netlify" with [Rafael Conde](https://rafaelconde.net/)
+- 🎧 [React Round Up](https://devchat.tv/react-round-up/rru-066-accessibility-is-not-a-%E2%80%9Creact-problem%E2%80%9D-with-leslie-cohn-wein/): "Accessibility is not a React Problem"
+- 📺 [Concatenate Conf](https://www.concatenate.dev/schedule/), Oct 2019: Spreading the JAM
 
-- [Eleventy](https://11ty.io) with a skeleton site
-- A date format filter for Nunjucks based on [Luxon](https://moment.github.io/luxon)
-- A tiny CSS pipeline with PostCSS
-- A tiny inline JS pipeline. (<a href="#" class="btn-log">Test a console.log message</a>)
-- JS [search index](/search.json) generator
-- [Netlify Dev](https://www.netlify.com/products/dev) for testing [Netlify redirects](https://netlify.com/docs/redirects/)
-- Serverless (FaaS) development pipeline with [Netlify Dev](https://www.netlify.com/products/dev) and [Netlify Functions](https://www.netlify.com/products/functions)
-
-
-
-## Post pages
+<!-- ## Post pages
 
 The pages found in in the posts
 
@@ -44,7 +36,6 @@ These links were sourced from [hawksworx.com](https://www.hawksworx.com/feed.jso
 {%- endfor -%}
 </ul>
 
-
 ## Prerequisite
 
 - [Node and NPM](https://nodejs.org/)
@@ -63,6 +54,7 @@ npm run start
 ```
 
 ## Add some Netlify helpers
+
 Netlify Dev adds the ability to use Netlify redirects, proxies, and serverless functions.
 
 ```bash
@@ -83,8 +75,4 @@ A serverless functions pipeline is included via Netlify Dev. By running `netlify
 Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
 
 - [/api/hello](/api/hello)
-- [/api/fetch-joke](/api/fetch-joke)
-
-
-
-
+- [/api/fetch-joke](/api/fetch-joke) -->
