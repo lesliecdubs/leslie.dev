@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
-    <title>{{ title }}</title>
-  </head>
 
-  <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>{{ title }}</title>
+</head>
+
+  <body {% if bodyClass %}class="{{ bodyClass }}" {% endif %}>
     {% include "nav.njk" %}
 
     <div class="container">
@@ -15,15 +16,15 @@
       <div class="container__content">
         {{ content | safe }}
       </div>
+
       {% include "footer.njk" %}
     </div>
 
     {% set js %}
-      {% include "js/core.js" %}
-      {% include "js/nav.js" %}
+    {% include "js/core.js" %}
+    {% include "js/nav.js" %}
     {% endset %}
 
     <script>{{ js | jsmin | safe }}</script>
-
   </body>
 </html>
