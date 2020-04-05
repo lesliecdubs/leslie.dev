@@ -1,0 +1,5 @@
+{
+  "layout": "work-item.njk",
+  "tags": "work",
+  "templateEngineOverride": "njk,md"
+}
