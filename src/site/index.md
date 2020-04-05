@@ -1,4 +1,5 @@
 ---
+title: Leslie Cohn-Wein
 subtitle: Senior Frontend Engineer at <a href="http://www.netlify.com" target="_blank">Netlify</a> working remote from Dallas.<br />Former agency dev at <a href="http://canvasunited.com" target="_blank">Canvas United</a> and IBM IX in NYC.<br/>Pronounced CONE🍦-wine🍷. She/her.
 layout: layouts/home.njk
 ---
@@ -37,22 +38,6 @@ Seeing my byline in CSS-Tricks was a lifelong goal, so I guess I can retire now?
 - [Accessibility is not a “React Problem”: Chris Coyier's Pick](https://css-tricks.com/accessibility-is-not-a-react-problem/) on CSS-Tricks
 - [Developer Spotlight: Leslie Cohn-Wein of Netlify](https://hackernoon.com/developer-spotlight-leslie-cohn-wein-of-netlify-fe51e862fb18) on Hackernoon
 
-<h2 id="work" data-scroll-point>💻 Selected Work</h2>
-
-I've pushed some pixels.
-
-- [Netlify Storybook](http://storybook.netlify.com) | React component library for [app.netlify.com](http://app.netlify.com)
-- [Netlify Docs](https://docs.netlify.com/) | VuePress + Netlify
-- [JAMstack Conference](https://2019.jamstackconf.com/) microsites 2019 | Middleman + Netlify
-- [HKS Architects](https://www.hksinc.com/) | Gatsby + WordPress + Netlify
-- [Parker Palm Springs](https://www.parkerpalmsprings.com/home/) hotel | Gatsby + Contentful + Netlify
-- [WorldPride & Stonewall at 50](https://2019-worldpride-stonewall50.nycpride.org/) event site | Gatsby + Contentful + Netlify
-- [Canvas United](https://www.canvasunited.com/) agency site | React + Netlify
-- [Crunch Fitness](https://www.crunch.com/) | Ruby on Rails + React
-- [Dataminr](https://www.dataminr.com/) | Ruby on Rails + ThreeJS
-- [Brooklyn Bowl](http://brooklynbowl.com/) | WordPress & jQuery
-- Nintendo, microsites for assorted WiiU & 3DS games | GSAP + jQuery
-
 <h2 id="awards" data-scroll-point>🏆 Awards</h2>
 
 In my past life, I was an agency dev working on client sites. Some of them won awards!
@@ -64,3 +49,29 @@ In my past life, I was an agency dev working on client sites. Some of them won a
 - [2017 Awwwards Honorable Mention](https://www.awwwards.com/sites/dataminr) for [Dataminr](https://www.dataminr.com/)
 - [2017 Awwwards Honorable Mention](https://www.awwwards.com/sites/dataminr) for [The Beekman Hotel](https://www.thebeekman.com/)
 - [2016 Awwwards Honorable Mention](https://www.awwwards.com/sites/woods-bagot-superspace) for Woods Bagot Superspace
+
+<h2 id="work" data-scroll-point>💻 Selected Work</h2>
+
+I've pushed some pixels.
+
+<ul class="listing">
+  {%- for work in collections.work -%}
+    <li>
+      <a href="{{ work.data.url }}">{{ work.data.title }}</a> -
+      <!-- <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time> -->
+    </li>
+  {%- endfor -%}
+</ul>
+
+
+<!-- - [Netlify Storybook](http://storybook.netlify.com) | React component library for [app.netlify.com](http://app.netlify.com)
+- [Netlify Docs](https://docs.netlify.com/) | VuePress + Netlify
+- [JAMstack Conference](https://2019.jamstackconf.com/) microsites 2019 | Middleman + Netlify
+- [HKS Architects](https://www.hksinc.com/) | Gatsby + WordPress + Netlify
+- [Parker Palm Springs](https://www.parkerpalmsprings.com/home/) hotel | Gatsby + Contentful + Netlify
+- [WorldPride & Stonewall at 50](https://2019-worldpride-stonewall50.nycpride.org/) event site | Gatsby + Contentful + Netlify
+- [Canvas United](https://www.canvasunited.com/) agency site | React + Netlify
+- [Crunch Fitness](https://www.crunch.com/) | Ruby on Rails + React
+- [Dataminr](https://www.dataminr.com/) | Ruby on Rails + ThreeJS
+- [Brooklyn Bowl](http://brooklynbowl.com/) | WordPress & jQuery
+- Nintendo, microsites for assorted WiiU & 3DS games | GSAP + jQuery -->
