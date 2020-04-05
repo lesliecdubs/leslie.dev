@@ -1,7 +1,7 @@
 ---
 title: Netlify Storybook
 url: http://storybook.netlify.com
-date: 2018-10
+date: 2019-06
 company: Netlify
 ---
 
