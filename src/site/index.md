@@ -3,7 +3,7 @@ subtitle: Senior Frontend Engineer at <a href="http://www.netlify.com" target="_
 layout: layouts/home.njk
 ---
 
-## 👩🏻‍💻 About
+## <a name="about">👩🏻‍💻 About</a>
 
 I'm a "front of the frontend" developer who spends most of my time these days building products in React. (Don't tell the programmers, but CSS is my favorite! 🤫) 
 
@@ -11,7 +11,7 @@ I believe there is no "definition of done" without accessibility.
 
 In my free time, I frequent [ReactJS Dallas](http://meetup.com/reactjsdallas) and [Women Who Code DFW](https://www.womenwhocode.com/dfw) meetups, eat good meals with [my spouse](http://www.thejoyfulbelly.com/) (a chef!), take walks with my basset mix [Burt Macklin](https://www.instagram.com/dammitmacklin/), volunteer on the young adult board at [Jewish Family Service](https://jfsdallas.org), and teach ninth grade [Sunday School](https://www.tedallas.org/learning/youth-learning-engagement/9th-12th-grade).
 
-## 🎤 Speaking
+## <a name="speaking">🎤 Speaking</a>
 
 I spend most of my time building, but every once in a while I say things.
 
@@ -27,7 +27,7 @@ I spend most of my time building, but every once in a while I say things.
 - 🎧 [React Round Up 081 (Panelist)](https://devchat.tv/react-round-up/rru-081-nx-and-monorepos-with-jeffrey-cross-and-victor-savkin/): "Monorepos" with Jeffrey Cross & Victor Savkin
 - 🎧 [React Round Up 085 (Panelist)](https://devchat.tv/react-round-up/rru-085-building-resilient-architecture-with-monica-lent/): "Building Resilient Architecture" with Monica Lent
 
-## ✏️ Writing & Interviews
+## <a name="writing">✏️ Writing & Interviews</a>
 
 Seeing my byline in CSS-Tricks was a lifelong goal, so I guess I can retire now?
 
@@ -37,7 +37,7 @@ Seeing my byline in CSS-Tricks was a lifelong goal, so I guess I can retire now?
 - [Accessibility is not a “React Problem”: Chris Coyier's Pick](https://css-tricks.com/accessibility-is-not-a-react-problem/) on CSS-Tricks
 - [Developer Spotlight: Leslie Cohn-Wein of Netlify](https://hackernoon.com/developer-spotlight-leslie-cohn-wein-of-netlify-fe51e862fb18) on Hackernoon
 
-## 💻 Selected Work
+## <a name="work">💻 Selected Work</a>
 
 I've pushed some pixels.
 
@@ -53,7 +53,7 @@ I've pushed some pixels.
 - [Brooklyn Bowl](http://brooklynbowl.com/) | WordPress & jQuery
 - Nintendo, microsites for assorted WiiU & 3DS games | GSAP + jQuery
 
-## 🏆 Awards
+## <a name="awards">🏆 Awards</a>
 
 In my past life, I was an agency dev working on client sites. Some of them won awards!
 
@@ -64,70 +64,3 @@ In my past life, I was an agency dev working on client sites. Some of them won a
 - [2017 Awwwards Honorable Mention](https://www.awwwards.com/sites/dataminr) for [Dataminr](https://www.dataminr.com/)
 - [2017 Awwwards Honorable Mention](https://www.awwwards.com/sites/dataminr) for [The Beekman Hotel](https://www.thebeekman.com/)
 - [2016 Awwwards Honorable Mention](https://www.awwwards.com/sites/woods-bagot-superspace) for Woods Bagot Superspace
-
-
-<!-- ## Post pages
-
-The pages found in in the posts
-
-<ul class="listing">
-{%- for page in collections.post -%}
-  <li>
-    <a href="{{ page.url }}">{{ page.data.title }}</a> -
-    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
-  </li>
-{%- endfor -%}
-</ul>
-
-## Links from an external data source
-
-These links were sourced from [hawksworx.com](https://www.hawksworx.com/feed.json) at build time.
-
-<ul class="listing">
-{%- for item in hawksworx.entries.slice(0,5) -%}
-  <li>
-    <a href="{{ item.link }}">{{ item.title }}</a>
-  </li>
-{%- endfor -%}
-</ul>
-
-## Prerequisite
-
-- [Node and NPM](https://nodejs.org/)
-
-## Running locally
-
-```bash
-# install the dependencies
-npm install
-
-# External data sources can be stashed locally
-npm run seed
-
-# It will then be available locally for building with
-npm run start
-```
-
-## Add some Netlify helpers
-
-Netlify Dev adds the ability to use Netlify redirects, proxies, and serverless functions.
-
-```bash
-# install the Netlify CLI in order to get Netlify Dev
-npm install -g netlify-cli
-
-# run a local server with some added Netlify sugar in front of Eleventy
-netlify dev
-```
-
-A serverless functions pipeline is included via Netlify Dev. By running `netlify dev` you'll be able to execute any of your serverless functions directly like this:
-
-- [/.netlify/functions/hello](/.netlify/functions/hello)
-- [/.netlify/functions/fetch-joke](/.netlify/functions/fetch-joke)
-
-### Redirects and proxies
-
-Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
-
-- [/api/hello](/api/hello)
-- [/api/fetch-joke](/api/fetch-joke) -->
