@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="/css/styles.css">
     <title>{{ title }}</title>
   </head>
+
   <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
+    {% include "nav.njk" %}
 
     <div class="container">
       {% include "header.njk" %}
-      {{ content | safe }}
+      <div class="container__content">
+        {{ content | safe }}
+      </div>
       {% include "footer.njk" %}
     </div>
 
@@ -18,6 +22,7 @@
       {% include "js/core.js" %}
       {% include "js/hello.js" %}
     {% endset %}
+
     <script>{{ js | jsmin | safe }}</script>
 
   </body>
