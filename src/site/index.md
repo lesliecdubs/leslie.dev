@@ -3,7 +3,7 @@ subtitle: Senior Frontend Engineer at <a href="http://www.netlify.com" target="_
 layout: layouts/home.njk
 ---
 
-## <a name="about">👩🏻‍💻 About</a>
+<h2 id="about" data-scroll-point>👩🏻‍💻 About</h2>
 
 I'm a "front of the frontend" developer who spends most of my time these days building products in React. (Don't tell the programmers, but CSS is my favorite! 🤫) 
 
@@ -11,7 +11,7 @@ I believe there is no "definition of done" without accessibility.
 
 In my free time, I frequent [ReactJS Dallas](http://meetup.com/reactjsdallas) and [Women Who Code DFW](https://www.womenwhocode.com/dfw) meetups, eat good meals with [my spouse](http://www.thejoyfulbelly.com/) (a chef!), take walks with my basset mix [Burt Macklin](https://www.instagram.com/dammitmacklin/), volunteer on the young adult board at [Jewish Family Service](https://jfsdallas.org), and teach ninth grade [Sunday School](https://www.tedallas.org/learning/youth-learning-engagement/9th-12th-grade).
 
-## <a name="speaking">🎤 Speaking</a>
+<h2 id="speaking" data-scroll-point>🎤 Speaking</h2>
 
 I spend most of my time building, but every once in a while I say things.
 
@@ -27,7 +27,7 @@ I spend most of my time building, but every once in a while I say things.
 - 🎧 [React Round Up 081 (Panelist)](https://devchat.tv/react-round-up/rru-081-nx-and-monorepos-with-jeffrey-cross-and-victor-savkin/): "Monorepos" with Jeffrey Cross & Victor Savkin
 - 🎧 [React Round Up 085 (Panelist)](https://devchat.tv/react-round-up/rru-085-building-resilient-architecture-with-monica-lent/): "Building Resilient Architecture" with Monica Lent
 
-## <a name="writing">✏️ Writing & Interviews</a>
+<h2 id="writing" data-scroll-point>✏️ Writing & Interviews</h2>
 
 Seeing my byline in CSS-Tricks was a lifelong goal, so I guess I can retire now?
 
@@ -37,7 +37,7 @@ Seeing my byline in CSS-Tricks was a lifelong goal, so I guess I can retire now?
 - [Accessibility is not a “React Problem”: Chris Coyier's Pick](https://css-tricks.com/accessibility-is-not-a-react-problem/) on CSS-Tricks
 - [Developer Spotlight: Leslie Cohn-Wein of Netlify](https://hackernoon.com/developer-spotlight-leslie-cohn-wein-of-netlify-fe51e862fb18) on Hackernoon
 
-## <a name="work">💻 Selected Work</a>
+<h2 id="work" data-scroll-point>💻 Selected Work</h2>
 
 I've pushed some pixels.
 
@@ -53,7 +53,7 @@ I've pushed some pixels.
 - [Brooklyn Bowl](http://brooklynbowl.com/) | WordPress & jQuery
 - Nintendo, microsites for assorted WiiU & 3DS games | GSAP + jQuery
 
-## <a name="awards">🏆 Awards</a>
+<h2 id="awards" data-scroll-point>🏆 Awards</h2>
 
 In my past life, I was an agency dev working on client sites. Some of them won awards!
 
