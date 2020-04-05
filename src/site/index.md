@@ -10,7 +10,7 @@ I'm a "front of the frontend" developer who spends most of my time these days bu
 
 I believe there is no "definition of done" without accessibility.
 
-In my free time, I frequent [ReactJS Dallas](http://meetup.com/reactjsdallas) and [Women Who Code DFW](https://www.womenwhocode.com/dfw) meetups, eat good meals with [my spouse](http://www.thejoyfulbelly.com/) (a chef!), explore with my basset hound mix [Burt Macklin](https://www.instagram.com/dammitmacklin/), volunteer at [Jewish Family Service](https://jfsdallas.org), and teach ninth grade [Sunday School](https://www.tedallas.org/learning/youth-learning-engagement/9th-12th-grade).
+In my free time, I frequent <a href="http://meetup.com/reactjsdallas" target="_blank" rel="noopener nofollow">ReactJS Dallas</a> and <a href="https://www.womenwhocode.com/dfw" target="_blank" rel="noopener nofollow">Women Who Code DFW</a> meetups, eat good meals with <a href="http://www.thejoyfulbelly.com/" target="_blank" rel="noopener nofollow">my spouse</a> (a chef!), explore with my basset hound mix <a href="https://www.instagram.com/dammitmacklin/" target="_blank" rel="noopener nofollow">Burt Macklin</a>, volunteer at <a href="https://jfsdallas.org" target="_blank" rel="noopener nofollow">Jewish Family Service</a>, and teach ninth grade <a href="https://www.tedallas.org/learning/youth-learning-engagement/9th-12th-grade" target="_blank" rel="noopener nofollow">Sunday School</a>.
 
 <h2 id="speaking" data-scroll-point>🎤 Speaking</h2>
 
