@@ -10,7 +10,7 @@ I'm a "front of the frontend" developer who spends most of my time these days bu
 
 I believe there is no "definition of done" without accessibility.
 
-In my free time, I frequent [ReactJS Dallas](http://meetup.com/reactjsdallas) and [Women Who Code DFW](https://www.womenwhocode.com/dfw) meetups, eat good meals with [my spouse](http://www.thejoyfulbelly.com/) (a chef!), take walks with my basset mix [Burt Macklin](https://www.instagram.com/dammitmacklin/), volunteer on the young adult board at [Jewish Family Service](https://jfsdallas.org), and teach ninth grade [Sunday School](https://www.tedallas.org/learning/youth-learning-engagement/9th-12th-grade).
+In my free time, I frequent [ReactJS Dallas](http://meetup.com/reactjsdallas) and [Women Who Code DFW](https://www.womenwhocode.com/dfw) meetups, eat good meals with [my spouse](http://www.thejoyfulbelly.com/) (a chef!), explore with my basset hound mix [Burt Macklin](https://www.instagram.com/dammitmacklin/), volunteer at [Jewish Family Service](https://jfsdallas.org), and teach ninth grade [Sunday School](https://www.tedallas.org/learning/youth-learning-engagement/9th-12th-grade).
 
 <h2 id="speaking" data-scroll-point>🎤 Speaking</h2>
 
@@ -54,24 +54,26 @@ In my past life, I was an agency dev working on client sites. Some of them won a
 
 I've pushed some pixels.
 
-<ul class="listing">
-  {%- for work in collections.work -%}
-    <li>
-      <a href="{{ work.data.url }}">{{ work.data.title }}</a> -
-      <!-- <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time> -->
-    </li>
+<ul class="work">
+  {%- for work in collections.work | reverse -%}
+    {%- if work.data.video -%}
+      <li>
+        <a class="work__link" href="{{ work.data.url }}" target="_blank" rel="noopener nofollow">
+          <video class="work__video" muted loop name="{{ work.data.title }}" src="/images/{{ work.data.video }}"></video>
+          <p class="work__details">
+            ▶️ <strong>{{ work.data.title }}</strong> (via {{ work.data.company }}) with {{ work.data.tech }} 
+          </p>
+        </a>
+      </li>
+    {%- elseif work.data.image -%}
+      <li>
+        <a class="work__link" href="{{ work.data.url }}" target="_blank" rel="noopener nofollow">
+          <img class="work__image" src="/images/{{ work.data.image }}" alt="" />
+          <p class="work__details">
+            <strong>{{ work.data.title }}</strong> (via {{ work.data.company }}) with {{ work.data.tech }}
+          </p>
+        </a>
+      </li>
+    {%- endif -%}
   {%- endfor -%}
 </ul>
-
-
-<!-- - [Netlify Storybook](http://storybook.netlify.com) | React component library for [app.netlify.com](http://app.netlify.com)
-- [Netlify Docs](https://docs.netlify.com/) | VuePress + Netlify
-- [JAMstack Conference](https://2019.jamstackconf.com/) microsites 2019 | Middleman + Netlify
-- [HKS Architects](https://www.hksinc.com/) | Gatsby + WordPress + Netlify
-- [Parker Palm Springs](https://www.parkerpalmsprings.com/home/) hotel | Gatsby + Contentful + Netlify
-- [WorldPride & Stonewall at 50](https://2019-worldpride-stonewall50.nycpride.org/) event site | Gatsby + Contentful + Netlify
-- [Canvas United](https://www.canvasunited.com/) agency site | React + Netlify
-- [Crunch Fitness](https://www.crunch.com/) | Ruby on Rails + React
-- [Dataminr](https://www.dataminr.com/) | Ruby on Rails + ThreeJS
-- [Brooklyn Bowl](http://brooklynbowl.com/) | WordPress & jQuery
-- Nintendo, microsites for assorted WiiU & 3DS games | GSAP + jQuery -->
