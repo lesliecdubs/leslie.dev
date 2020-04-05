@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  background: linear-gradient(320deg, $accent-color 0%, $page-color 100%);
+  background: linear-gradient(to top, $accent-color 0%, $page-color 99%);
   color: mix($text-color, $page-color, 90%);
   font-family: sans-serif;
   font-size: 16px;
@@ -38,7 +38,7 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
+  padding-top: 2.5em;
   text-align: left;
   width: 90%;
 
@@ -49,6 +49,10 @@ body {
   @media (min-width: $wide) {
     width: 700px;
   }
+}
+
+.header {
+  padding-top: 100px;
 }
 
 h1,
@@ -158,6 +162,12 @@ a:focus {
 }
 
 .nav {
+  background: $page-color;
+  height: 3.5em;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+
   li {
     display: inline;
   }
@@ -165,18 +175,15 @@ a:focus {
   a:link,
   a:visited {
     border-bottom-style: none;
-    border-top-color: mix($text-color, $accent-color, 40%);
-    border-top-style: solid;
-    border-top-width: 1px;
     color: mix($text-color, $accent-color, 80%);
     display: inline-block;
     margin-left: 0;
     margin-right: 0.7em;
-    padding-bottom: 2em;
+    padding-bottom: 0.8em;
     padding-top: 0.8em;
     text-align: left;
     text-decoration: none;
-    width: 9em;
+    
   }
 
   a:hover,
@@ -191,6 +198,12 @@ a:focus {
     display: block;
     font-size: 0.7em;
   }
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 
 code {
