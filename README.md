@@ -1,10 +1,10 @@
-# EleventyOne
+# Leslie Cohn-Wein's Personal Site
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/056b4a67-70e6-4af4-9be5-dee151b8e906/deploy-status)](https://app.netlify.com/sites/eleventyone/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/056b4a67-70e6-4af4-9be5-dee151b8e906/deploy-status)](https://app.netlify.com/sites/leslie-dot-dev/deploys)
 
-Phil's first port of call when starting another project using Eleventy.
+This site was built with [Phil Hawksworth's](https://github.com/philhawksworth) [EleventyOne](https://github.com/philhawksworth/eleventyone) template.
 
-This project scaffold includes:
+EleventyOne includes:
 
 - [Eleventy](https://11ty.io) with a skeleton site
 - A date format filter for Nunjucks based on [Luxon](https://moment.github.io/luxon)
@@ -13,25 +13,6 @@ This project scaffold includes:
 - JS search index generator
 - [Netlify Dev](https://www.netlify.com/products/dev) for testing [Netlify redirects](https://netlify.com/docs/redirects/)
 - Serverless (FaaS) development pipeline with [Netlify Dev](https://www.netlify.com/products/dev) and [Netlify Functions](https://www.netlify.com/products/functions)
-
-
-![Eleventy screenshot](./eleventyone-template.jpg)
-
-
-## Instructions
-
-To get your own instance of this 11ty starter project cloned and deploying to Netlify very quickly, just click the button below and follow the instructions.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/eleventyone)
-
-
-## Wait, what happens when I click that button?
-
-Good question. Here's what it will do...
-
-1. Netlify will clone the git repository of this project into your Github account. It will be asking for permission to add the repo for you.
-2. We'll create a new site for you in Netlify, and configure it to use your shiny new repo. Right away you'll be able to deploy changes simply by pushing changes to your repo.
-3. That's it really.
 
 
 ## Prerequisites
@@ -43,9 +24,6 @@ Good question. Here's what it will do...
 ```bash
 # install the dependencies
 npm install
-
-# External data sources can be stashed locally
-npm run seed
 
 # It will then be available locally for building with
 npm run start
@@ -62,11 +40,7 @@ npm install -g netlify-cli
 netlify dev
 ```
 
-A serverless functions pipeline is included via Netlify Dev. By running `netlify dev` you'll be able to execute any of your serverless functions directly like this:
-
-- /.netlify/functions/hello
-- /.netlify/functions/fetch-joke
-
+A serverless functions pipeline is included via Netlify Dev. By running `netlify dev` you'll be able to execute any serverless functions directly.
 
 ### Redirects and proxies
 
@@ -74,4 +48,3 @@ Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
 
 - /api/hello
 - /api/fetch-joke
-
