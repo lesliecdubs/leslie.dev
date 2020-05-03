@@ -16,8 +16,10 @@ In my free time, I frequent <a href="http://meetup.com/reactjsdallas" target="_b
 
 I spend most of my time building, but every once in a while I say things.
 
-- 📺 [Concatenate Conf](https://www.concatenate.dev/schedule/), Oct 2019: "Spreading the JAM"
+- 📺 [ReactJS Dallas](https://www.meetup.com/ReactJSDallas/events/270028353/), Apr 2020: "Evolution of Flight: Phased rollout on the Jamstack"
+- 📺 [Concatenate Conf](https://www.concatenate.dev/schedule/), Oct 2019: "Spreading the Jam"
 - 🎧 [Full Stack Radio](http://www.fullstackradio.com/124): "Designing the User Interface at Netlify" with [Rafael Conde](https://rafaelconde.net/)
+- 📺 [ReactJS Dallas](https://www.meetup.com/ReactJSDallas/events/pbbdwnyzgbmb/), Apr 2019: "Spreading the Jam"
 - 🎧 [React Round Up 066 (Guest)](https://devchat.tv/react-round-up/rru-066-accessibility-is-not-a-%E2%80%9Creact-problem%E2%80%9D-with-leslie-cohn-wein/): "Accessibility is not a React Problem"
 - 🎧 [React Round Up 068 (Panelist)](https://devchat.tv/react-round-up/rru-068-design-systems-with-varya-stepanova/): "Design Systems" with Varya Stepanova
 - 🎧 [React Round Up 070 (Panelist)](https://devchat.tv/react-round-up/rru-070-drawing-the-line-between-3rd-party-and-custom-code-with-glenn-reyes/): "Third Party vs Custom Code" with Glenn Reyes
