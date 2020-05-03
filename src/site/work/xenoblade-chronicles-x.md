@@ -4,6 +4,6 @@ url: https://web.archive.org/web/20160729210222/http://xenobladechroniclesx.nint
 date: 2016-06
 company: Ammirati
 tech: custom SVG animation
-video: xenoblade-chronicles-x.mov
+video: xenoblade-chronicles-x.mp4
 image: xenoblade-chronicles-x.png
 ---

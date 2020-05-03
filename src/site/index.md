@@ -26,7 +26,7 @@ I spend most of my time building, but every once in a while I say things.
 - 🎧 [React Round Up 077 (Panelist)](https://devchat.tv/react-round-up/rru-077-reusing-code-responsibly-with-andrey-okonetchnikov/): "Reusing Code" with Andrey Okonetchnikov
 - 🎧 [React Round Up 079 (Panelist)](https://devchat.tv/react-round-up/rru-079-state-machines-and-state-charts-with-farzad-yousef-zadeh/): "State Machines" with Farzad Yousef Zadeh
 - 🎧 [React Round Up 081 (Panelist)](https://devchat.tv/react-round-up/rru-081-nx-and-monorepos-with-jeffrey-cross-and-victor-savkin/): "Monorepos" with Jeffrey Cross & Victor Savkin
-- 🎧 [React Round Up 085 (Panelist)](https://devchat.tv/react-round-up/rru-085-building-resilient-architecture-with-monica-lent/): "Building Resilient Architecture" with Monica Lent
+- 🎧 [React Round Up 085 (Panelist)](https://devchat.tv/react-round-up/rru-085-building-resilient-architecture-with-monica-lent/): "Resilient Architecture" with Monica Lent
 
 <h2 id="writing" data-scroll-point>✏️ Writing & Interviews</h2>
 
@@ -59,7 +59,7 @@ I've pushed some pixels.
     {%- if work.data.video -%}
       <li>
         <a class="work__link" href="{{ work.data.url }}" target="_blank" rel="noopener nofollow">
-          <video class="work__video" muted loop name="{{ work.data.title }}" src="/images/{{ work.data.video }}"></video>
+          <video class="work__video" muted loop name="{{ work.data.title }}" src="/videos/{{ work.data.video }}"></video>
           <p class="work__details">
             ▶️ <strong>{{ work.data.title }}</strong> (via {{ work.data.company }}) with {{ work.data.tech }} 
           </p>

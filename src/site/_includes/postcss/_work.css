@@ -28,10 +28,14 @@ a.work__link:active {
 
 a.work__link:hover {
   color: $accent-color;
+
+  .work__details {
+    color: white;
+  }
 }
 
 .work__image {
-  border: 1em solid $page-color;
+  border: 1em solid $text-color;
   border-bottom-width: 0.5em;
   box-sizing: border-box;
   display: block;
@@ -39,9 +43,9 @@ a.work__link:hover {
 }
 
 .work__video {
-  border: 1em solid $page-color;
-  border-radius: 0.3em 0.3em 0 0;
+  border: 1em solid $text-color;
   border-bottom-width: 0.5em;
+  border-radius: 0.3em 0.3em 0 0;
   box-sizing: border-box;
   display: block;
   max-width: 100%;
@@ -52,9 +56,11 @@ a.work__link:hover {
 }
 
 .work__details {
-  background-color: $page-color;
+  background-color: $text-color;
   border-radius: 0 0 0.3em 0.3em;
+  color: $page-color;
   line-height: 1.5;
   margin: 0;
   padding: 0 1em 0.5em 1em;
+  transition: color 0.15s;
 }
