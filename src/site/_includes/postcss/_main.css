@@ -40,11 +40,7 @@ body {
   width: 92%;
 
   @media (min-width: $mid) {
-    width: 600px;
-  }
-
-  @media (min-width: $wide) {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
@@ -220,7 +216,9 @@ a:visited:not(.link--naked) {
 
 a:hover:not(.logo),
 a:focus:not(.logo) {
-  color: white;
+  @media (min-width: $mid) {
+    color: white;
+  }
 
   &::before {
     transform: scaleY(0.9);

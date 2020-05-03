@@ -35,7 +35,7 @@ module.exports = function(config) {
   // open markdown links in new tab
   config.addShortcode(
     'externalLink',
-    (text, url) => `<a class="text-link" href="${url}" target="_blank">${text}</a>`
+    (text, url) => `<a class="text-link" href="${url}" target="_blank" rel="noopener nofollow">${text}</a>`
   );
 
   // pass some assets right through
