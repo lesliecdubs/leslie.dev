@@ -1,6 +1,6 @@
 ---
 title: Leslie Cohn-Wein
-subtitle: Senior Frontend Engineer at <a href="http://www.netlify.com" target="_blank">Netlify</a> working remote from Dallas.<br />Former agency dev at <a href="http://canvasunited.com" target="_blank">Canvas United</a> and IBM IX in NYC.<br/>Pronounced CONE🍦-wine🍷. She/her.
+subtitle: Senior Frontend Engineer at <a href="http://www.netlify.com" target="_blank" rel="noopener nofollow">Netlify</a> working remote from Dallas.<br />Former agency dev at <a href="http://canvasunited.com" target="_blank" rel="noopener nofollow">Canvas United</a> and IBM IX in NYC.<br/>Pronounced CONE🍦-wine🍷. She/her.
 layout: layouts/home.njk
 ---
 
@@ -10,7 +10,7 @@ I'm a "front of the frontend" developer who spends most of my time these days bu
 
 I believe there is no "definition of done" without accessibility.
 
-In my free time, I frequent <a href="http://meetup.com/reactjsdallas" target="_blank" rel="noopener nofollow">ReactJS Dallas</a> and <a href="https://www.womenwhocode.com/dfw" target="_blank" rel="noopener nofollow">Women Who Code DFW</a> meetups, eat good meals with <a href="http://www.thejoyfulbelly.com/" target="_blank" rel="noopener nofollow">my spouse</a> (a chef!), explore with my basset hound mix <a href="https://www.instagram.com/dammitmacklin/" target="_blank" rel="noopener nofollow">Burt Macklin</a>, volunteer at <a href="https://jfsdallas.org" target="_blank" rel="noopener nofollow">Jewish Family Service</a>, and teach ninth grade <a href="https://www.tedallas.org/learning/youth-learning-engagement/9th-12th-grade" target="_blank" rel="noopener nofollow">Sunday School</a>.
+In my free time, I frequent <a href="http://meetup.com/reactjsdallas" target="_blank" rel="noopener nofollow">ReactJS Dallas</a> and <a href="https://www.womenwhocode.com/dfw" target="_blank" rel="noopener nofollow">Women Who Code DFW</a> meetups, seek out good meals with <a href="http://www.thejoyfulbelly.com/" target="_blank" rel="noopener nofollow">my spouse</a> (a chef!), explore with my basset hound/blue heeler mix <a href="https://www.instagram.com/dammitmacklin/" target="_blank" rel="noopener nofollow">Burt "Mack" Macklin</a>, volunteer at <a href="https://jfsdallas.org" target="_blank" rel="noopener nofollow">Jewish Family Service</a>, and teach ninth grade <a href="https://www.tedallas.org/learning/youth-learning-engagement/9th-12th-grade" target="_blank" rel="noopener nofollow">religious school</a>.
 
 <h2 id="speaking" data-scroll-point>🎤 Speaking</h2>
 
