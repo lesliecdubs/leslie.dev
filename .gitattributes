@@ -1,4 +1,2 @@
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-src/site/vidoes/*.mp4 filter=lfs diff=lfs merge=lfs -text
-dist/videos/*.mp4 filter=lfs diff=lfs merge=lfs -text
 src/site/videos/*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
