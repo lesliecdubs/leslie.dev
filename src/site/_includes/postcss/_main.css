@@ -136,7 +136,7 @@ p {
   text-align: center;
 
   @media (min-width: $mid) {
-    margin-bottom: 5em;
+    margin-bottom: 4em;
     margin-top: 2em;
   }
 
