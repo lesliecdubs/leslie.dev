@@ -40,6 +40,7 @@ a.work__link:hover {
 
 .work__video {
   border: 1em solid $page-color;
+  border-radius: 0.3em 0.3em 0 0;
   border-bottom-width: 0.5em;
   box-sizing: border-box;
   display: block;
@@ -52,6 +53,7 @@ a.work__link:hover {
 
 .work__details {
   background-color: $page-color;
+  border-radius: 0 0 0.3em 0.3em;
   line-height: 1.5;
   margin: 0;
   padding: 0 1em 0.5em 1em;
