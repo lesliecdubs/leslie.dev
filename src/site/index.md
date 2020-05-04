@@ -61,7 +61,7 @@ I've pushed some pixels.
         <a class="work__link link--naked" href="{{ work.data.url }}" target="_blank" rel="noopener nofollow">
           <video class="work__video" muted loop name="{{ work.data.title }}" src="/videos/{{ work.data.video }}"></video>
           <p class="work__details">
-            ▶️ <strong>{{ work.data.title }}</strong> (via {{ work.data.company }}) with {{ work.data.tech }} 
+            <span class="work__emoji">▶️</span> <strong>{{ work.data.title }}</strong> (via {{ work.data.company }}) with {{ work.data.tech }} 
           </p>
         </a>
       </li>

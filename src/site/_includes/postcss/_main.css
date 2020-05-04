@@ -37,7 +37,7 @@ body {
   margin-right: auto;
   padding-top: 2.5em;
   text-align: left;
-  width: 92%;
+  width: 94%;
 
   @media (min-width: $mid) {
     max-width: 768px;
@@ -173,7 +173,20 @@ p {
 
 ul,
 ol {
-  padding-left: 1em;
+  list-style-type: none;
+
+  @media (min-width: $mid) {
+    list-style-type: inherit;
+    padding-left: 1em;
+  }
+
+  li {
+    margin-bottom: 1em;
+
+    @media (min-width: $mid) {
+      margin-bottom: 0.15em;
+    }
+  }
 }
 
 a:link:not(.link--naked),
@@ -241,6 +254,7 @@ a:focus:not(.logo) {
   li {
     align-items: center;
     display: flex;
+    margin-bottom: 0;
   }
 
   a:link,
@@ -340,9 +354,15 @@ footer {
   border-top-width: 1px;
   color: $page-color;
   font-size: 0.7em;
-  margin-top: 6em;
-  padding-bottom: 6em;
-  padding-top: 4em;
+  margin-top: 3em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+
+  @media (min-width: $mid) {
+    margin-top: 6em;
+    padding-bottom: 6em;
+    padding-top: 4em;
+  }
 }
 
 .footer {
@@ -355,5 +375,22 @@ footer {
   a:hover,
   a:focus {
     opacity: 0.7;
+  }
+
+
+  br {
+    content: ' ';
+
+    @media (min-width: $mid) {
+      content: none;
+    }
+  }
+
+  br:after {
+    content: ' ';
+
+    @media (min-width: $mid) {
+      content: none;
+    }
   }
 }

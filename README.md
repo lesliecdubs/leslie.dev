@@ -41,10 +41,3 @@ netlify dev
 ```
 
 A serverless functions pipeline is included via Netlify Dev. By running `netlify dev` you'll be able to execute any serverless functions directly.
-
-### Redirects and proxies
-
-Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
-
-- /api/hello
-- /api/fetch-joke
