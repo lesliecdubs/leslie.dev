@@ -20,8 +20,8 @@
     </div>
 
     {% set js %}
-      {% include "js/core.js" %}
-      {% include "js/hello.js" %}
+        {% include "js/nav.js" %}
+    {% include "js/video.js" %}
     {% endset %}
     <script>{{ js | jsmin | safe }}</script>
 
