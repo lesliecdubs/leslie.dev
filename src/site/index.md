@@ -13,7 +13,7 @@ The first line of code I ever wrote was for my LiveJournal theme. I had a colleg
 
 As an agency dev, the Jamstack gave me superpowers. I joined Netlify in 2018.
 
-In my free time, I frequent the <a href="http://meetup.com/reactjsdallas" target="_blank" rel="noopener nofollow">ReactJS Dallas</a> and <a href="https://www.womenwhocode.com/dfw" target="_blank" rel="noopener nofollow">Women Who Code DFW</a> meetups, explore with my <a href="http://www.thejoyfulbelly.com/" target="_blank" rel="noopener nofollow">(chef) spouse</a> and basset hound mix <a href="https://www.instagram.com/dammitmacklin/" target="_blank" rel="noopener nofollow">Burt "Mack" Macklin</a>, volunteer at <a href="https://jfsdallas.org" target="_blank" rel="noopener nofollow">Jewish Family Service</a>, and teach ninth grade religious school.
+In my spare time, I frequent the <a href="http://meetup.com/reactjsdallas" target="_blank" rel="noopener nofollow">ReactJS Dallas</a> and <a href="https://www.womenwhocode.com/dfw" target="_blank" rel="noopener nofollow">Women Who Code DFW</a> meetups, volunteer at <a href="https://jfsdallas.org" target="_blank" rel="noopener nofollow">Jewish Family Service</a>, teach ninth grade religious school, and hang out with my <a href="http://www.thejoyfulbelly.com/" target="_blank" rel="noopener nofollow">(chef) spouse</a> and basset hound mix <a href="https://www.instagram.com/dammitmacklin/" target="_blank" rel="noopener nofollow">FBI Agent Burt Macklin</a>.
 
 <h2 id="speaking" data-scroll-point>🎤 Speaking</h2>
 
