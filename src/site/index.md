@@ -1,5 +1,5 @@
 ---
-title: Leslie Cohn-Wein
+title: Leslie Cohn-Wein builds stuff
 subtitle: Senior Frontend Engineer at <a href="http://www.netlify.com" target="_blank" rel="noopener nofollow">Netlify</a> working remote from Dallas.<br />Former agency dev at <a href="http://canvasunited.com" target="_blank" rel="noopener nofollow">Canvas United</a> and IBM IX in NYC.<br/>Pronounced CONE🍦-wine🍷. She/her.
 layout: layouts/home.njk
 ---
@@ -57,7 +57,7 @@ In my past life, I was an agency dev working on client sites. Some won awards!
 
 <h2 id="work" data-scroll-point>💻 Selected Work</h2>
 
-I've pushed some pixels.
+I’ve pushed some pixels. Here’s a super small selection.
 
 <ul class="work">
   {%- for work in collections.work | reverse -%}
