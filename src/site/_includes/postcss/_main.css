@@ -182,9 +182,8 @@ a:visited:not(.link--naked) {
   display: inline-block;
   padding: 0 2px;
   text-decoration-color: $accent-color;
-  text-decoration-thickness: .125em;
-  -webkit-text-underline-offset: 1em;
-  text-underline-offset: 1em;
+  text-decoration-thickness: .1em;
+  text-underline-offset: 0.3em;
 
   @media (min-width: $mid) {
     display: inline-block;
