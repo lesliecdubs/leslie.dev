@@ -13,6 +13,16 @@
   color: $page-color;
 }
 
+.visually-hidden {
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px; 
+  overflow: hidden;
+  position: absolute !important;
+  white-space: nowrap; /* added line */
+  width: 1px;
+}
+
 html {
   background-color: $page-color;
 }
@@ -50,7 +60,7 @@ body {
   padding: 0.1em 1.25em 0.5em;
 
   @media (min-width: $wide) {
-    padding: 0.1em 2em 1em;
+    padding: 2em 2em 1em;
   }
 }
 
@@ -87,7 +97,7 @@ h1 {
   }
 }
 
-h2[data-scroll-point] {
+[data-scroll-point] {
   scroll-margin-top: 75px;
 }
 
@@ -131,8 +141,8 @@ p {
   text-align: center;
 
   @media (min-width: $mid) {
-    margin-bottom: 1.5em;
-    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+    margin-top: 1.5em;
   }
 
   br {
@@ -171,6 +181,14 @@ p {
       opacity: 1;
     }
   }
+}
+
+.headshot {
+  border-radius: 50%;
+  float: left;
+  margin-right: 1.5em;
+  shape-outside: margin-box;
+  width: 125px;
 }
 
 ul,
@@ -351,19 +369,14 @@ pre {
 }
 
 footer {
-  border-top-color: mix($text-color, $accent-color, 10%);
-  border-top-style: solid;
-  border-top-width: 1px;
   color: $page-color;
   font-size: 0.9em;
   margin-top: 3em;
   padding-bottom: 2em;
-  padding-top: 2em;
 
   @media (min-width: $mid) {
     margin-top: 3em;
     padding-bottom: 4em;
-    padding-top: 2em;
   }
 }
 
