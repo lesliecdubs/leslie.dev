@@ -13,6 +13,16 @@
   color: $page-color;
 }
 
+.visually-hidden {
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px; 
+  overflow: hidden;
+  position: absolute !important;
+  white-space: nowrap; /* added line */
+  width: 1px;
+}
+
 html {
   background-color: $page-color;
 }
@@ -45,12 +55,12 @@ body {
 }
 
 .container__content {
-  background: rgba(242, 234, 201, 0.85);
-  border-radius: 0.5em;
+  background: rgba(242, 234, 201, 0.9);
+  border-radius: 0.75em;
   padding: 0.1em 1.25em 0.5em;
 
   @media (min-width: $wide) {
-    padding: 0.1em 2em 1em;
+    padding: 2em 2em 1em;
   }
 }
 
@@ -58,7 +68,7 @@ body {
   padding-top: 60px;
 
   @media (min-width: $mid) {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 }
 
@@ -87,12 +97,8 @@ h1 {
   }
 }
 
-h2[data-scroll-point] {
-  scroll-margin-top: 70px;
-
-  @media (min-width: $mid) {
-    scroll-margin-top: 80px;
-  }
+[data-scroll-point] {
+  scroll-margin-top: 75px;
 }
 
 .logo:link,
@@ -129,29 +135,14 @@ p {
 
 .subtitle {
   font-size: 1.1em;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   margin-top: 1em;
-  padding-top: 2em;
   position: relative;
   text-align: center;
 
   @media (min-width: $mid) {
-    margin-bottom: 4em;
-    margin-top: 2em;
-  }
-
-  &::before {
-    background: $accent-color;
-    content: "";
-    height: 3px;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.5;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100px;
+    margin-bottom: 1.8em;
+    margin-top: 1.5em;
   }
 
   br {
@@ -169,6 +160,35 @@ p {
       content: none;
     }
   }
+}
+
+.social-links {
+  margin-bottom: 1em;
+  text-align: center;
+
+  @media (min-width: $mid) {
+    margin-bottom: 2em;
+  }
+
+  a {
+    color: white;
+    margin: 0 0.5em;
+    opacity: 0.85;
+    text-decoration: none;
+    transition: opacity 0.15s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.headshot {
+  border-radius: 50%;
+  float: left;
+  margin-right: 1.5em;
+  shape-outside: margin-box;
+  width: 125px;
 }
 
 ul,
@@ -349,19 +369,14 @@ pre {
 }
 
 footer {
-  border-top-color: mix($text-color, $accent-color, 10%);
-  border-top-style: solid;
-  border-top-width: 1px;
   color: $page-color;
-  font-size: 0.7em;
+  font-size: 0.9em;
   margin-top: 3em;
   padding-bottom: 2em;
-  padding-top: 2em;
 
   @media (min-width: $mid) {
-    margin-top: 6em;
-    padding-bottom: 6em;
-    padding-top: 4em;
+    margin-top: 3em;
+    padding-bottom: 4em;
   }
 }
 
@@ -369,12 +384,14 @@ footer {
   a:link,
   a:visited {
     color: white;
+    opacity: 0.8;
+    text-underline-offset: 0.2em;
     transition: 0.1s opacity;
   }
 
   a:hover,
   a:focus {
-    opacity: 0.7;
+    opacity: 1;
   }
 
 

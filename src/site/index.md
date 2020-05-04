@@ -1,21 +1,26 @@
 ---
-title: Leslie Cohn-Wein
+title: Leslie Cohn-Wein builds stuff
 subtitle: Senior Frontend Engineer at <a href="http://www.netlify.com" target="_blank" rel="noopener nofollow">Netlify</a> working remote from Dallas.<br />Former agency dev at <a href="http://canvasunited.com" target="_blank" rel="noopener nofollow">Canvas United</a> and IBM IX in NYC.<br/>Pronounced CONE🍦-wine🍷. She/her.
 layout: layouts/home.njk
 ---
 
-<h2 id="about" data-scroll-point>👩🏻‍💻 About</h2>
+<h2 class="visually-hidden" >👩🏻‍💻 About</h2>
 
-I’m a “front of the frontend” developer who loves the Jamstack, React, CSS, and accessibility. (Don’t tell the programmers, but CSS is my favorite! 🤫)
+<img id="about" data-scroll-point class="headshot" src="/images/leslie-profile.jpg" alt="Leslie Cohn-Wein" />
+I’m a “front of the frontend” developer who loves the Jamstack, React, CSS (my favorite! 😍), and accessibility.
 
-In my free time, I frequent <a href="http://meetup.com/reactjsdallas" target="_blank" rel="noopener nofollow">ReactJS Dallas</a> and <a href="https://www.womenwhocode.com/dfw" target="_blank" rel="noopener nofollow">Women Who Code DFW</a> meetups, seek out good meals with <a href="http://www.thejoyfulbelly.com/" target="_blank" rel="noopener nofollow">my spouse</a> (a chef!), explore with my basset hound/blue heeler mix <a href="https://www.instagram.com/dammitmacklin/" target="_blank" rel="noopener nofollow">Burt "Mack" Macklin</a>, volunteer at <a href="https://jfsdallas.org" target="_blank" rel="noopener nofollow">Jewish Family Service</a>, and teach ninth grade <a href="https://www.tedallas.org/learning/youth-learning-engagement/9th-12th-grade" target="_blank" rel="noopener nofollow">religious school</a>.
+The first line of code I ever wrote was for my LiveJournal theme. I had a college internship building Drupal and WordPress sites for nonprofits; three years later, I was developing <a href="https://web.archive.org/web/20150312155138/http://nesremix.nintendo.com/" target="_blank" rel="noopener nofollow">sites for Nintendo</a> at an NYC ad agency. 
+
+As an agency dev, the Jamstack gave me superpowers. I joined Netlify in 2018.
+
+In my spare time, I frequent the <a href="http://meetup.com/reactjsdallas" target="_blank" rel="noopener nofollow">ReactJS Dallas</a> and <a href="https://www.womenwhocode.com/dfw" target="_blank" rel="noopener nofollow">Women Who Code DFW</a> meetups, volunteer at <a href="https://jfsdallas.org" target="_blank" rel="noopener nofollow">Jewish Family Service</a>, teach ninth grade religious school, and hang out with my <a href="http://www.thejoyfulbelly.com/" target="_blank" rel="noopener nofollow">(chef) spouse</a> and basset hound mix <a href="https://www.instagram.com/dammitmacklin/" target="_blank" rel="noopener nofollow">FBI Agent Burt Macklin</a>.
 
 <h2 id="speaking" data-scroll-point>🎤 Speaking</h2>
 
 I spend most of my time building, but every once in a while I say things.
 
 - 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/270028353/' %}, Apr 2020: “Evolution of Flight: Phased rollout on the Jamstack”
-- 🎤 {% externalLink 'Concatenate Conf', 'https://www.concatenate.dev/schedule/' %}, Oct 2019: “Spreading the Jam”
+- 🎤 {% externalLink 'Concatenate Conf', 'https://www.concatenate.dev/schedule/#workshops' %}, Oct 2019: “Spreading the Jam”
 - 🎧 {% externalLink 'Full Stack Radio', 'http://www.fullstackradio.com/124' %}: “Designing the User Interface at Netlify” with {% externalLink 'Rafael Conde', 'https://rafaelconde.net/' %}
 - 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/pbbdwnyzgbmb/' %}, Apr 2019: “Spreading the Jam”
 - 🎧 {% externalLink 'React Round Up 066 (Guest)', 'https://devchat.tv/react-round-up/rru-066-accessibility-is-not-a-%E2%80%9Creact-problem%E2%80%9D-with-leslie-cohn-wein/' %}: “Accessibility is not a React Problem”
@@ -40,7 +45,7 @@ Seeing my byline in CSS-Tricks was a lifelong goal, so I guess I can retire now?
 
 <h2 id="awards" data-scroll-point>🏆 Awards</h2>
 
-In my past life, I was an agency dev working on client sites. Some of them won awards!
+In my past life, I was an agency dev working on client sites. Some won awards!
 
 - {% externalLink '2018 Communication Arts Interactive Award', 'https://www.commarts.com/project/26022/the-parker-palm-springs' %} for the {% externalLink 'Parker Palm Springs', 'https://www.parkerpalmsprings.com/' %}
 - {% externalLink '2018 Communication Arts Shortlist', 'https://www.commarts.com/content/files/competitions/2018%20IA%20Shortlist_3.pdf' %} for {% externalLink 'The Beekman Hotel', 'https://www.thebeekman.com/' %} & {% externalLink 'Canvas United', 'https://www.canvasunited.com/' %}
@@ -52,7 +57,7 @@ In my past life, I was an agency dev working on client sites. Some of them won a
 
 <h2 id="work" data-scroll-point>💻 Selected Work</h2>
 
-I've pushed some pixels.
+I’ve pushed some pixels. Here’s a super small selection.
 
 <ul class="work">
   {%- for work in collections.work | reverse -%}
