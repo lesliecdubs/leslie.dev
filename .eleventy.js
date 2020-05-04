@@ -32,6 +32,11 @@ module.exports = function(config) {
       return minified.code;
   });
 
+  // open markdown links in new tab
+  config.addShortcode(
+    'externalLink',
+    (text, url) => `<a class="text-link" href="${url}" target="_blank" rel="noopener nofollow">${text}</a>`
+  );
 
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
