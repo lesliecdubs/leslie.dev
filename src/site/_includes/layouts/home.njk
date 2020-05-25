@@ -15,11 +15,9 @@
   <body {% if bodyClass %}class="{{ bodyClass }}" {% endif %}>
     {% include "nav.njk" %}
 
-    <div class="container container--main">
+    <div class="container-wrap">
       {% include "header.njk" %}
-      <div class="container__content">
-        {{ content | safe }}
-      </div>
+      {{ content | safe }}
 
       {% include "footer.njk" %}
     </div>

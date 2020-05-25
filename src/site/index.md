@@ -4,35 +4,45 @@ subtitle: Senior Frontend Engineer at <a href="http://www.netlify.com" target="_
 layout: layouts/home.njk
 ---
 
-<h2 class="visually-hidden" >👩🏻‍💻 About</h2>
+<section>
+<div class="container container__content">
+  <h2 class="visually-hidden" >👩🏻‍💻 About</h2>
 
-<img id="about" data-scroll-point class="headshot" src="/images/leslie-profile.jpg" alt="Leslie Cohn-Wein" />
-I’m a “front of the frontend” developer who loves the Jamstack, React, CSS (my favorite! 😍), and accessibility.
+  <img id="about" data-scroll-point class="headshot" src="/images/leslie-profile.jpg" alt="Leslie Cohn-Wein" />
+  I’m a “front of the frontend” developer who loves the Jamstack, React, CSS (my favorite! 😍), and accessibility.
 
-The first line of code I ever wrote was for my LiveJournal theme. I had a college internship building Drupal and WordPress sites for nonprofits; three years later, I was developing <a href="https://web.archive.org/web/20150312155138/http://nesremix.nintendo.com/" target="_blank" rel="noopener nofollow">sites for Nintendo</a> at an NYC ad agency. 
+  The first line of code I ever wrote was for my LiveJournal theme. I had a college internship building Drupal and WordPress sites for nonprofits. A few years later, I was developing <a href="https://web.archive.org/web/20150312155138/http://nesremix.nintendo.com/" target="_blank" rel="noopener nofollow">sites for Nintendo</a> at an NYC ad agency. As an agency dev, the Jamstack gave me superpowers.
 
-As an agency dev, the Jamstack gave me superpowers. I joined Netlify in 2018.
+  I loved this approach to building for the web so much that I joined Netlify in 2018, where I <a href="https://twitter.com/lesliecdubs/status/1207770216576487425" target="_blank" rel="noopener nofollow">contribute to the React app</a> that powers <a href="https://app.netlify.com" target="_blank" rel="noopener nofollow">app.netlify.com</a>.
 
-In my spare time, I frequent the <a href="http://meetup.com/reactjsdallas" target="_blank" rel="noopener nofollow">ReactJS Dallas</a> and <a href="https://www.womenwhocode.com/dfw" target="_blank" rel="noopener nofollow">Women Who Code DFW</a> meetups, volunteer at <a href="https://jfsdallas.org" target="_blank" rel="noopener nofollow">Jewish Family Service</a>, teach ninth grade religious school, and hang out with my <a href="http://www.thejoyfulbelly.com/" target="_blank" rel="noopener nofollow">(chef) spouse</a> and basset hound mix <a href="https://www.instagram.com/dammitmacklin/" target="_blank" rel="noopener nofollow">FBI Agent Burt Macklin</a>.
+  In my spare time, I frequent the <a href="http://meetup.com/reactjsdallas" target="_blank" rel="noopener nofollow">ReactJS Dallas</a> and <a href="https://www.womenwhocode.com/dfw" target="_blank" rel="noopener nofollow">Women Who Code DFW</a> meetups, volunteer at <a href="https://jfsdallas.org" target="_blank" rel="noopener nofollow">Jewish Family Service</a>, teach ninth grade religious school, and hang out with my <a href="http://www.thejoyfulbelly.com/" target="_blank" rel="noopener nofollow">(chef) spouse</a> and basset hound mix <a href="https://www.instagram.com/dammitmacklin/" target="_blank" rel="noopener nofollow">FBI Agent Burt Macklin</a>.
+</div>
+</section>
 
-<h2 id="speaking" data-scroll-point>🎤 Speaking</h2>
+<section class="separator">
+<div class="container container__content">
+  <h2 id="speaking" data-scroll-point>🎤 Speaking</h2>
 
-I spend most of my time building, but every once in a while I say things.
+  I spend most of my time building, but every once in a while I say things.
 
-- 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/270028353/' %}, Apr 2020: “Evolution of Flight: Phased rollout on the Jamstack”
-- 🎤 {% externalLink 'Concatenate Conf', 'https://www.concatenate.dev/schedule/#workshops' %}, Oct 2019: “Spreading the Jam”
-- 🎧 {% externalLink 'Full Stack Radio', 'http://www.fullstackradio.com/124' %}: “Designing the User Interface at Netlify” with {% externalLink 'Rafael Conde', 'https://rafaelconde.net/' %}
-- 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/pbbdwnyzgbmb/' %}, Apr 2019: “Spreading the Jam”
-- 🎧 {% externalLink 'React Round Up 066 (Guest)', 'https://devchat.tv/react-round-up/rru-066-accessibility-is-not-a-%E2%80%9Creact-problem%E2%80%9D-with-leslie-cohn-wein/' %}: “Accessibility is not a React Problem”
-- 🎧 {% externalLink 'React Round Up 068 (Panelist)', 'https://devchat.tv/react-round-up/rru-068-design-systems-with-varya-stepanova/' %}: “Design Systems” with Varya Stepanova
-- 🎧 {% externalLink 'React Round Up 070 (Panelist)', 'https://devchat.tv/react-round-up/rru-070-drawing-the-line-between-3rd-party-and-custom-code-with-glenn-reyes/' %}: “Third Party vs Custom Code” with Glenn Reyes
-- 🎧 {% externalLink 'React Round Up 074 (Panelist)', 'https://devchat.tv/react-round-up/rru-074-learning-react-and-typescript-in-public-with-shawn-swyx-wang/' %}: “Learning in Public” with {% externalLink 'swyx', 'http://swyx.io' %}
-- 🎧 {% externalLink 'React Round Up 075 (Panelist)', 'https://devchat.tv/react-round-up/rru-075-animations-and-react-morphe-with-bruno-lorenco/' %}: “React Morph” with Bruno Lourenco
-- 🎧 {% externalLink 'React Round Up 077 (Panelist)', 'https://devchat.tv/react-round-up/rru-077-reusing-code-responsibly-with-andrey-okonetchnikov/' %}: “Reusing Code” with Andrey Okonetchnikov
-- 🎧 {% externalLink 'React Round Up 079 (Panelist)', 'https://devchat.tv/react-round-up/rru-079-state-machines-and-state-charts-with-farzad-yousef-zadeh/' %}: “State Machines” with Farzad Yousef Zadeh
-- 🎧 {% externalLink 'React Round Up 081 (Panelist)', 'https://devchat.tv/react-round-up/rru-081-nx-and-monorepos-with-jeffrey-cross-and-victor-savkin/' %}: “Monorepos” with Jeffrey Cross & Victor Savkin
-- 🎧 {% externalLink 'React Round Up 085 (Panelist)', 'https://devchat.tv/react-round-up/rru-085-building-resilient-architecture-with-monica-lent/' %}: “Resilient Architecture” with Monica Lent
+  - 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/270028353/' %}, Apr 2020: “Evolution of Flight: Phased rollout on the Jamstack”
+  - 🎤 {% externalLink 'Concatenate Conf', 'https://www.concatenate.dev/schedule/#workshops' %}, Oct 2019: “Spreading the Jam”
+  - 🎧 {% externalLink 'Full Stack Radio', 'http://www.fullstackradio.com/124' %}: “Designing the User Interface at Netlify” with {% externalLink 'Rafael Conde', 'https://rafaelconde.net/' %}
+  - 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/pbbdwnyzgbmb/' %}, Apr 2019: “Spreading the Jam”
+  - 🎧 {% externalLink 'React Round Up 066 (Guest)', 'https://devchat.tv/react-round-up/rru-066-accessibility-is-not-a-%E2%80%9Creact-problem%E2%80%9D-with-leslie-cohn-wein/' %}: “Accessibility is not a React Problem”
+  - 🎧 {% externalLink 'React Round Up 068 (Panelist)', 'https://devchat.tv/react-round-up/rru-068-design-systems-with-varya-stepanova/' %}: “Design Systems” with Varya Stepanova
+  - 🎧 {% externalLink 'React Round Up 070 (Panelist)', 'https://devchat.tv/react-round-up/rru-070-drawing-the-line-between-3rd-party-and-custom-code-with-glenn-reyes/' %}: “Third Party vs Custom Code” with Glenn Reyes
+  - 🎧 {% externalLink 'React Round Up 074 (Panelist)', 'https://devchat.tv/react-round-up/rru-074-learning-react-and-typescript-in-public-with-shawn-swyx-wang/' %}: “Learning in Public” with {% externalLink 'swyx', 'http://swyx.io' %}
+  - 🎧 {% externalLink 'React Round Up 075 (Panelist)', 'https://devchat.tv/react-round-up/rru-075-animations-and-react-morphe-with-bruno-lorenco/' %}: “React Morph” with Bruno Lourenco
+  - 🎧 {% externalLink 'React Round Up 077 (Panelist)', 'https://devchat.tv/react-round-up/rru-077-reusing-code-responsibly-with-andrey-okonetchnikov/' %}: “Reusing Code” with Andrey Okonetchnikov
+  - 🎧 {% externalLink 'React Round Up 079 (Panelist)', 'https://devchat.tv/react-round-up/rru-079-state-machines-and-state-charts-with-farzad-yousef-zadeh/' %}: “State Machines” with Farzad Yousef Zadeh
+  - 🎧 {% externalLink 'React Round Up 081 (Panelist)', 'https://devchat.tv/react-round-up/rru-081-nx-and-monorepos-with-jeffrey-cross-and-victor-savkin/' %}: “Monorepos” with Jeffrey Cross & Victor Savkin
+  - 🎧 {% externalLink 'React Round Up 085 (Panelist)', 'https://devchat.tv/react-round-up/rru-085-building-resilient-architecture-with-monica-lent/' %}: “Resilient Architecture” with Monica Lent
+</div>
+</section>
 
+<section>
+<div class="container container__content">
 <h2 id="writing" data-scroll-point>✏️ Writing & Interviews</h2>
 
 Seeing my byline in CSS-Tricks was a lifelong goal, so I guess I can retire now?
@@ -42,7 +52,11 @@ Seeing my byline in CSS-Tricks was a lifelong goal, so I guess I can retire now?
 - {% externalLink 'Accessibility is not a “React Problem”', 'https://www.netlify.com/blog/2019/02/25/accessibility-is-not-a-react-problem/' %} on Netlify
 - {% externalLink 'Accessibility is not a “React Problem”: Chris Coyier’s Pick', 'https://css-tricks.com/accessibility-is-not-a-react-problem/' %} on CSS-Tricks
 - {% externalLink 'Developer Spotlight: Leslie Cohn-Wein of Netlify', 'https://hackernoon.com/developer-spotlight-leslie-cohn-wein-of-netlify-fe51e862fb18' %} on Hackernoon
+</div>
+</section>
 
+<section class="separator separator--alt">
+<div class="container container__content">
 <h2 id="awards" data-scroll-point>🏆 Awards</h2>
 
 In my past life, I was an agency dev working on client sites. Some won awards!
@@ -54,7 +68,11 @@ In my past life, I was an agency dev working on client sites. Some won awards!
 - {% externalLink '2017 Awwwards Honorable Mention', 'https://www.awwwards.com/sites/dataminr' %} for {% externalLink 'Dataminr', 'https://www.dataminr.com/' %}
 - {% externalLink '2017 Awwwards Honorable Mention', 'https://www.awwwards.com/sites/dataminr' %} for {% externalLink 'The Beekman Hotel', 'https://www.thebeekman.com/' %}
 - {% externalLink '2016 Awwwards Honorable Mention', 'https://www.awwwards.com/sites/woods-bagot-superspace' %} for Woods Bagot Superspace
+</div>
+</section>
 
+<section>
+<div class="container container__content">
 <h2 id="work" data-scroll-point>💻 Selected Work</h2>
 
 I’ve pushed some pixels. Here’s a super small selection.
@@ -82,3 +100,5 @@ I’ve pushed some pixels. Here’s a super small selection.
     {%- endif -%}
   {%- endfor -%}
 </ul>
+</div>
+</section>

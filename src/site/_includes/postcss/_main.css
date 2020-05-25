@@ -4,12 +4,12 @@
 }
 
 ::-moz-selection {
-  background-color: $text-color;
+  background-color: $accent-color;
   color: $page-color;
 }
 
 ::selection {
-  background-color: $text-color;
+  background-color: $accent-color;
   color: $page-color;
 }
 
@@ -24,11 +24,11 @@
 }
 
 html {
-  background-color: $page-color;
+  background-color: $accent-color;
 }
 
 body {
-  background: linear-gradient(to bottom, $page-color 0%, $page-color 3%, #E4A987 25%, $accent-color 100%);
+  background: $page-color;
   color: mix($text-color, $page-color, 90%);
   font-family: sans-serif;
   font-size: 16px;
@@ -47,7 +47,7 @@ body {
   margin-right: auto;
   padding-top: 2.5em;
   text-align: left;
-  width: 94%;
+  width: 90%;
 
   @media (min-width: $mid) {
     max-width: 768px;
@@ -55,9 +55,7 @@ body {
 }
 
 .container__content {
-  background: rgba(242, 234, 201, 0.9);
-  border-radius: 0.75em;
-  padding: 1.5em 1.25em 0.5em;
+  padding: 1.5em 0 0.5em;
 
   @media (min-width: $wide) {
     padding: 2em 2em 1em;
@@ -66,9 +64,92 @@ body {
 
 .header {
   padding-top: 60px;
+  position: relative;
 
   @media (min-width: $mid) {
+    padding-top: 70px;
+  }
+}
+
+.header__content {
+  margin-bottom: 40px;
+  padding-top: 60px;
+  position: relative;
+  z-index: 1;
+
+  @media (min-width: $mid) {
+    margin-bottom: 60px;
     padding-top: 80px;
+  }
+}
+
+.skewed {
+  /* background-image: linear-gradient(to bottom, #FFC0AE 0%, #fadac6 100%); */
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, #FFC0AE 0%, #fffaf7 100%);
+  border-bottom: 1px solid rgba(56, 56, 56, 0.1);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  padding-bottom: 2em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: skewY(2deg);
+  transform-origin: top right;
+  width: 100%;
+  z-index: 0;
+
+  @media (min-width: $mid) {
+    padding-bottom: 3.5em;
+  }
+}
+
+.separator {
+  position: relative;
+
+  &::before {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #ff8d6c 0%, #fadac6 100%);
+    border-bottom: 1px solid rgba(56, 56, 56, 0.1);
+    border-top: 1px solid rgba(56, 56, 56, 0.1);
+    content: "";
+    height: 10px;
+    left: 0;
+    padding-bottom: 3.5em;
+    position: absolute;
+    top: -45px;
+    transform-origin: top left;
+    transform: skewY(-1deg);
+    width: 100%;
+    z-index: 0;
+
+    @media (min-width: $mid) {
+      height: 40px;
+      top: -50px;
+    }
+  }
+
+  &.separator--alt {
+    &::before {
+      top: -40px;
+      transform-origin: top right;
+      transform: skewY(1deg);
+
+      @media (min-width: $mid) {
+        top: -30px;
+      }
+    }
+  }
+
+  .container {
+    margin-top: 90px;
+  }
+
+  + section {
+    .container__content {
+      padding-top: 0;
+    }
   }
 }
 
@@ -98,7 +179,28 @@ h1 {
 }
 
 [data-scroll-point] {
-  scroll-margin-top: 75px;
+  scroll-margin-top: 85px;
+}
+
+.logo {
+  position: relative;
+
+  svg {
+    position: relative;
+    z-index: 1;
+  }
+
+  &::after {
+    background: radial-gradient(#fff, transparent 80%);
+    content: "";
+    height: 100%;
+    left: 40%;
+    opacity: 0.35;
+    position: absolute;
+    top: 0;
+    transform: translateX(-40%);
+    width: 140%;
+  }
 }
 
 .logo:link,
@@ -135,7 +237,7 @@ p {
 
 .subtitle {
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1.8;
   margin-bottom: 1em;
   margin-top: 1em;
   position: relative;
@@ -143,7 +245,6 @@ p {
 
   @media (min-width: $mid) {
     font-size: 1.1em;
-    line-height: 1.8;
     margin-bottom: 1.8em;
     margin-top: 1.5em;
   }
@@ -174,14 +275,16 @@ p {
   }
 
   a {
-    color: white;
+    color: $text-color;
     margin: 0 0.5em;
-    opacity: 0.85;
+    opacity: 0.75;
     text-decoration: none;
-    transition: opacity 0.15s;
+    transition: color 0.1s;
 
-    &:hover {
-      opacity: 1;
+    &:hover:not(.logo),
+    &:active:not(.logo),
+    &:focus:not(.logo) {
+      color: $accent-color;
     }
   }
 }
@@ -272,7 +375,10 @@ a:focus:not(.logo) {
 }
 
 .nav {
-  background: $page-color;
+  backdrop-filter: saturate(170%) blur(4px);
+  background: rgba(255, 251, 245, 0.75); /* $page-color */
+  border-top: 6px solid $accent-color;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.25);
   height: 3.5em;
   position: fixed;
   width: 100%;
@@ -388,19 +494,23 @@ footer {
 }
 
 .footer {
-  a:link,
-  a:visited {
-    color: white;
-    opacity: 0.8;
-    text-underline-offset: 0.2em;
-    transition: 0.1s opacity;
+  color: $text-color;
+  margin-top: 90px;
+  padding-top: 50px;
+
+  @media (min-width: $mid) {
+    padding-top: 70px;
   }
 
-  a:hover,
-  a:focus {
-    opacity: 1;
-  }
+  .content__container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
 
+    @media (min-width: $mid) {
+      max-width: 100%;
+    }
+  }
 
   br {
     content: ' ';
