@@ -57,7 +57,7 @@ body {
 .container__content {
   background: rgba(242, 234, 201, 0.9);
   border-radius: 0.75em;
-  padding: 0.1em 1.25em 0.5em;
+  padding: 1.5em 1.25em 0.5em;
 
   @media (min-width: $wide) {
     padding: 2em 2em 1em;
@@ -134,13 +134,16 @@ p {
 }
 
 .subtitle {
-  font-size: 1.1em;
+  font-size: 1em;
+  line-height: 1.5;
   margin-bottom: 1em;
   margin-top: 1em;
   position: relative;
   text-align: center;
 
   @media (min-width: $mid) {
+    font-size: 1.1em;
+    line-height: 1.8;
     margin-bottom: 1.8em;
     margin-top: 1.5em;
   }
@@ -188,7 +191,11 @@ p {
   float: left;
   margin-right: 1.5em;
   shape-outside: margin-box;
-  width: 125px;
+  width: 85px;
+
+  @media (min-width: $mid) {
+    width: 125px;
+  }
 }
 
 ul,
