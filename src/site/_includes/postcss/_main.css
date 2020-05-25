@@ -4,12 +4,12 @@
 }
 
 ::-moz-selection {
-  background-color: $text-color;
+  background-color: $accent-color;
   color: $page-color;
 }
 
 ::selection {
-  background-color: $text-color;
+  background-color: $accent-color;
   color: $page-color;
 }
 
