@@ -86,7 +86,7 @@ body {
 .skewed {
   /* background-image: linear-gradient(to bottom, #FFC0AE 0%, #fadac6 100%); */
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom, #fea991 0%, #fffaf7 100%);
+  background-image: linear-gradient(to bottom, #FFC0AE 0%, #fffaf7 100%);
   border-bottom: 1px solid rgba(56, 56, 56, 0.1);
   bottom: 0;
   height: 100%;
