@@ -11,9 +11,9 @@ layout: layouts/home.njk
   <img id="about" data-scroll-point class="headshot" src="/images/leslie-profile.jpg" alt="Leslie Cohn-Wein" />
   I’m a “front of the frontend” developer who loves the Jamstack, React, CSS (my favorite! 😍), and accessibility.
 
-  The first line of code I ever wrote was for my LiveJournal theme. I had a college internship building Drupal and WordPress sites for nonprofits; a few years later, I was developing <a href="https://web.archive.org/web/20150312155138/http://nesremix.nintendo.com/" target="_blank" rel="noopener nofollow">sites for Nintendo</a> at an NYC ad agency. 
+  The first line of code I ever wrote was for my LiveJournal theme. I had a college internship building Drupal and WordPress sites for nonprofits. A few years later, I was developing <a href="https://web.archive.org/web/20150312155138/http://nesremix.nintendo.com/" target="_blank" rel="noopener nofollow">sites for Nintendo</a> at an NYC ad agency. As an agency dev, the Jamstack gave me superpowers.
 
-  As an agency dev, I found that the Jamstack gave me superpowers. I loved this new approach to building for the web so much that I joined Netlify in 2018, and have since 
+  I loved this approach to building for the web so much that I joined Netlify in 2018, where I <a href="https://twitter.com/lesliecdubs/status/1207770216576487425" target="_blank" rel="noopener nofollow">contribute to the React app</a> that powers <a href="https://app.netlify.com" target="_blank" rel="noopener nofollow">app.netlify.com</a>.
 
   In my spare time, I frequent the <a href="http://meetup.com/reactjsdallas" target="_blank" rel="noopener nofollow">ReactJS Dallas</a> and <a href="https://www.womenwhocode.com/dfw" target="_blank" rel="noopener nofollow">Women Who Code DFW</a> meetups, volunteer at <a href="https://jfsdallas.org" target="_blank" rel="noopener nofollow">Jewish Family Service</a>, teach ninth grade religious school, and hang out with my <a href="http://www.thejoyfulbelly.com/" target="_blank" rel="noopener nofollow">(chef) spouse</a> and basset hound mix <a href="https://www.instagram.com/dammitmacklin/" target="_blank" rel="noopener nofollow">FBI Agent Burt Macklin</a>.
 </div>
