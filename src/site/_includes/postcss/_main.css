@@ -191,7 +191,7 @@ h1 {
   }
 
   &::after {
-    background: radial-gradient(#fff, transparent 80%);
+    background: radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0) 80%);
     content: "";
     height: 100%;
     left: 40%;
