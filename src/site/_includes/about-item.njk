@@ -1,0 +1,12 @@
+<section class="home-{{ about.data.id }} {{ 'separator' if about.data.hasSeparator }} {{ 'separator--alt' if about.data.hasSeparatorAlt }}">
+  <div class="container container__content">
+    <h2 
+      id="{{ '' if about.data.isTitleHidden else about.data.id }}" 
+      class="{{ 'visually-hidden' if about.data.isTitleHidden }}"
+      data-scroll-point="{{ false if about.data.isTitleHidden else true }}"
+    >
+      {{ about.data.title }}
+    </h2>
+    {{ about.templateContent | safe }}
+  </div>
+</section>

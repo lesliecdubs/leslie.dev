@@ -29,6 +29,7 @@ html {
 
 body {
   background: $page-color;
+  border-bottom: 6px solid $accent-color;
   color: mix($text-color, $page-color, 90%);
   font-family: sans-serif;
   font-size: 16px;
@@ -150,6 +151,12 @@ body {
     .container__content {
       padding-top: 0;
     }
+  }
+}
+
+.home-about {
+  p:first-of-type {
+    margin-top: 0;
   }
 }
 
