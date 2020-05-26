@@ -1,8 +1,8 @@
 ---
+date: 2020-05-01
 title: 👩🏻‍💻 About
 id: about
 isTitleHidden: true
-date: 2020-05-01
 ---
 
 <img id="about" data-scroll-point class="headshot" src="/images/leslie-profile.jpg" alt="Leslie Cohn-Wein" />

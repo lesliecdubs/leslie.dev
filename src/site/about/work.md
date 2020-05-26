@@ -1,7 +1,7 @@
 ---
+date: 2020-05-05
 title: 💻 Selected Work
 id: work
-date: 2020-05-21
 ---
 
 I’ve pushed some pixels. Here’s a super small selection.

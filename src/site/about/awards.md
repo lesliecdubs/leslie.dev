@@ -1,9 +1,9 @@
 ---
+date: 2020-05-04
 title: 🏆 Awards
 id: awards
 hasSeparator: true
 hasSeparatorAlt: true
-date: 2020-05-22
 ---
 
 In my past life, I was an agency dev working on client sites. Some won awards!
