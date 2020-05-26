@@ -1,0 +1,5 @@
+{
+  "layout": "about-item.njk",
+  "tags": "about",
+  "templateEngineOverride": "njk,md"
+}
