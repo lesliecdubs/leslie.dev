@@ -37,13 +37,6 @@ module.exports = function(config) {
     (text, url) => `<a class="text-link" href="${url}" target="_blank" rel="noopener nofollow">${text}</a>`
   );
 
-  // allow sorting About collection by order frontmatter
-  config.addCollection('about', function(config) {
-    return collection.getFilteredByGlob("src/site/about/*.md")
-      .sort((a, b) => b.data.order - a.data.order);
-    }
-  );
-
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/videos");

@@ -2,7 +2,7 @@
 title: 🎤 Speaking
 id: speaking
 hasSeparator: true
-order: 2
+date: 2020-05-24
 ---
 
 I spend most of my time building, but every once in a while I say things.
