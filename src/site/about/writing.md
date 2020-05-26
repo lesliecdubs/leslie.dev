@@ -1,6 +1,7 @@
 ---
 title: ✏️ Writing & Interviews
 id: writing
+order: 3
 ---
 
 Seeing my byline in CSS-Tricks was a lifelong goal, so I guess I can retire now?

@@ -2,7 +2,9 @@
 title: 🎤 Speaking
 id: speaking
 hasSeparator: true
+order: 2
 ---
+
 I spend most of my time building, but every once in a while I say things.
 
   - 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/270028353/' %}, Apr 2020: “Evolution of Flight: Phased rollout on the Jamstack”

@@ -14,7 +14,6 @@ module.exports = function(config) {
   config.addFilter("squash", require("./src/utils/filters/squash.js") );
   config.addFilter("dateDisplay", require("./src/utils/filters/date.js") );
 
-
   // add support for syntax highlighting
   config.addPlugin(syntaxHighlight);
 
@@ -36,6 +35,13 @@ module.exports = function(config) {
   config.addShortcode(
     'externalLink',
     (text, url) => `<a class="text-link" href="${url}" target="_blank" rel="noopener nofollow">${text}</a>`
+  );
+
+  // allow sorting About collection by order frontmatter
+  config.addCollection('about', function(config) {
+    return collection.getFilteredByGlob("src/site/about/*.md")
+      .sort((a, b) => b.data.order - a.data.order);
+    }
   );
 
   // pass some assets right through

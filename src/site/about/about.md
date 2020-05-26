@@ -2,6 +2,7 @@
 title: 👩🏻‍💻 About
 id: about
 isTitleHidden: true
+order: 1
 ---
 
 <img id="about" data-scroll-point class="headshot" src="/images/leslie-profile.jpg" alt="Leslie Cohn-Wein" />
