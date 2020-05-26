@@ -5,9 +5,9 @@ id: about
 isTitleHidden: true
 ---
 
-<img id="about" data-scroll-point class="headshot" src="/images/leslie-profile.jpg" alt="Leslie Cohn-Wein" />
+<img class="headshot" src="/images/leslie-profile.jpg" alt="Leslie Cohn-Wein" />
 
-I’m a “front of the frontend” developer who loves the <a href="https://jamstack.org/" target="_blank" rel="noopener nofollow">Jamstack</a>, React, CSS (my favorite! 😍), and accessibility.
+<p id="about" data-scroll-point>I’m a “front of the frontend” developer who loves the <a href="https://jamstack.org/" target="_blank" rel="noopener nofollow">Jamstack</a>, React, CSS (my favorite! 😍), and accessibility.</p>
 
 I’m a former panelist on the devchat.tv podcast React Round Up, and my agency work has been nominated for a Webby and 4x Awwwards. A site I developed in 2018 won the CommArts Interactive Award. I’ve also written for CSS Tricks.
 

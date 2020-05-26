@@ -186,7 +186,14 @@ h1 {
 }
 
 [data-scroll-point] {
-  scroll-margin-top: 85px;
+  /* scroll-margin-top: 85px;  doesn't work in Safari yet :sob */
+
+  &::before {
+    content: "";
+    display: block;
+    margin-top: -85px; /* header height to degrees padding’s space */
+    padding-top: 85px; /* header height + empty space */
+  }
 }
 
 .logo {
