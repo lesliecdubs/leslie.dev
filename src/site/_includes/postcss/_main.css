@@ -197,6 +197,7 @@ h1 {
 }
 
 .logo {
+  overflow: hidden;
   position: relative;
 
   svg {
