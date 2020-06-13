@@ -1,6 +1,5 @@
 ---
 title: On the things that matter
-description: I found out at the beginning of the month that my high school boyfriend Matthew Driver died by suicide on May 22nd.
 date: 2020-06-12
 description: I found out at the beginning of the month that my high school boyfriend Matthew Driver died by suicide on May 22nd. Since then, I've been thinking a lot about memory and what really matters.
 ogimage: https://leslie.dev/images/posts/on-the-things-that-matter/swingset.jpg
