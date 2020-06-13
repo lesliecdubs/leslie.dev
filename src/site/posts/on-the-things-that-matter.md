@@ -1,5 +1,6 @@
 ---
 title: On the things that matter
+description: I found out at the beginning of the month that my high school boyfriend Matthew Driver died by suicide on May 22nd.
 date: 2020-06-12
 ---
 
@@ -11,17 +12,19 @@ But we also had fun.
 
 ![Matthew and Leslie on a swingset at the park](/images/posts/on-the-things-that-matter/swingset.jpg)
 
-He gave me the silliest nicknames, a few of which I’m not sure I’ll ever escape. We drove around in his SUV listening to Bright Eyes. We shared queso at Taco Cabana and made tamales with his family and I ate the pancakes he made for me in his childhood kitchen. 
+He gave me the silliest nicknames, a few of which I’m not sure I’ll ever escape. We drove around in his SUV listening to Bright Eyes, sometimes “hiding” a friend in the trunk so we could sneak one more person off campus for lunch. 
 
-I dragged him to school dances; he even smiled in some of the pictures I took, which wasn't something he normally did. We watched “The Exorcist” and “Return of the Living Dead” more times than I can count. We were both prolific posters on LiveJournal, and wouldn't let each other's entries go by without a comment.
+We shared queso at Taco Cabana and made tamales with his family and I ate the pancakes he made for me in his childhood kitchen. 
 
-He made me handmade cards with stickers and silly drawings, and I made him a scrapbook for our one year anniversary. He stumbled across it a few years ago and sent me photos; it was simultaneously painful and funny to look at.
+I dragged him to the Homecoming dance; he even smiled in some of the pictures I took, which wasn't something he normally did. We watched “The Exorcist” and “Return of the Living Dead” more times than I can count. We commented on almost every LiveJournal entry the other posted.
+
+He made handmade cards for me with stickers and silly drawings, and I made him a scrapbook for our one year anniversary. He stumbled across it a few years ago and sent me photos; it was simultaneously painful and funny to look at.
 
 ![Scrapbook page with photos from Homecoming](/images/posts/on-the-things-that-matter/scrapbook.jpg)
 
-We emailed each other constantly, and I still have most of them (at least, the ones he sent after bullying me into switching from Netscape to Gmail). When I search my inbox for his goofy old email address, I can easily end up on page 350 “of many.”
+We emailed each other constantly, especially after he bulled me into switching from Netscape to Gmail to get more storage. When I search my inbox for his goofy old email address (rawrimazombie!), I can easily end up on page 350 “of many.”
 
-We made each other mix CDs, most of which were 90% Bright Eyes. “Something Vague” was our favorite song; it was included on every single mix:
+We made each other mix CDs, many of which were 75% Bright Eyes. “Something Vague” was our favorite song; it was included on every single mix.
 
 https://open.spotify.com/playlist/1GlwMfTOQzA0QtDGEbqMSi?si=qQ7v9rTQTbmSEOgvuTWsXg
 
@@ -35,19 +38,19 @@ That's been following us both.<br />
 Something vague that we're not seeing,<br />
 Something more like a feeling.<br />
 
-He gave me a ring. We experienced a lot of firsts together.
+He gave me a ring. It didn't mean what you think it means, but it also meant everything at the time. We experienced a lot of firsts together.
 
 It didn’t end well, but that’s probably true of most high school relationships. As is typical, graduation became a natural ending and simultaneous new beginning.
 
 <div class="separator"></div>
 
-Matthew reached back out to me in 2017 and we started up where we left off, messaging back and forth every few months. I felt guilty that he was (still) mired in depression, trying to survive addiction and an abusive relationship. 
+Matthew reached back out to me in 2017 and it was like no time had passed; we started messaging back and forth every few months. I felt guilty that he was (still) mired in depression, trying to survive addiction and an abusive relationship. 
 
-Everyone has their challenges, but I was in a good place: I had gotten married in 2015, moved to Texas, and was busy with my first remote dev job.
+Everyone has their challenges, but I was in a good place: I had gotten married in 2015, moved from NYC back home to Texas, and was busy with my first remote dev job.
 
-If I’m being honest, I gave him a lot of tough love during those conversations. But he kept messaging me, and I was always there. 
+If I’m being honest, I gave him a lot of tough love during those conversations. But he kept messaging me, and I was always there. We were still inextricably connected. 
 
-We were still inextricably connected. The past is a strong drug.
+The past is a strong drug.
 
 The last time we talked was a month before he died. He seemed to be doing well, at least based on what he told me: he was celebrating 30 days sober and finishing his first semester back at college.
 
@@ -55,11 +58,21 @@ The last time we talked was a month before he died. He seemed to be doing well, 
 
 I had told him a few months back that {% externalLink 'Bright Eyes was putting out a new album', 'https://www.loudersound.com/features/bright-eyes-reunion-welcoming-back-the-band-who-helped-us-survive-the-2000s' %} after a nine year hiatus. Our final conversation started because he wanted to know if I’d heard their latest song. 
 
-I hadn't, so I listened to it. And then I sent him this sadly hopeful Matt Hires song, which reminded me a bit of early Conor Oberst on “Fevers and Mirrors.” 
+I hadn't, so I listened to it. And then I sent him this sadly hopeful Matt Hires song, which reminded me a bit of early Conor Oberst from “Fevers and Mirrors.” 
 
 https://open.spotify.com/track/1AZ3kCJfnyJt5O3broFxAD?si=zMBDiyQXQ1y-bhm4saWWgA
 
 The song is about death, but also about life being what you make it.
+
+> And oh my my, honey everybody dies<br />
+But you got, you got to see<br />
+That you can live your life walking in a straight line<br />
+But it's more than just A to B.<br />
+Maybe it'll find you lying peaceful under blankets<br />
+Or bleeding at the bottom of the stairs<br />
+Oh but it's not when or how you go<br />
+It's life and what you make it<br />
+It's the traveling, not the road that gets you there<br />
 
 It is the last song I will ever send him.
 
@@ -67,7 +80,7 @@ It is the last song I will ever send him.
 
 I felt silly and self-important for crying so much the week I found out Matthew died. It was the same week the world had started reeling from the news of {% externalLink 'George Floyd’s murder', 'https://www.nytimes.com/2020/05/31/us/george-floyd-investigation.html' %} at the hands of the police (during a {% externalLink 'global pandemic', 'https://covidtracking.com/' %}, no less). 
 
-I felt guilty for having such a strong reaction to Matthew’s death. Dying is a big deal, but it felt like a very personal sidebar during a world uprising about systemic injustice, against a backdrop of overflowing hopsitals and makeshift morgues.
+I tried to distract myself from the guilt I felt for having such a strong reaction to Matthew's death. Dying is a big deal, but it felt like a very personal sidebar during a world uprising about systemic injustice, set against a backdrop of overflowing hopsitals and makeshift morgues.
 
 Matthew’s death wouldn't change my day-to-day much, if at all. He wasn’t a fixture of my life anymore.
 
@@ -79,28 +92,44 @@ My friend {% externalLink 'Kate Kaput', 'https://twitter.com/katekaput' %} lost 
 
 These words gave me permission to grieve. 
 
-To acknowledge that this loss has a real and deep impact, and that it’s not only okay but necessary to process it. It’s okay to talk about him, to write about him, to share that writing.
+I finally realized it’s okay to talk about him, to write about him, to share that writing. I'm doing this because I _need_ you to know he lived, and that he mattered.
 
-To remember who he was at 15 and 16 and 17 and 18 and the impact his life had on mine, then and now.
+To remember who he was at 15 and 16 and 17 and 18 and the impact his life (and now death) had on mine, then and now.
 
 ![Matthew, smiling and lying upside down on my bed](/images/posts/on-the-things-that-matter/matthew.jpg)
 
-These words have also reminded me what actually matters at the end of the day. Or at the end of a life.
+Kate's words have also reminded me what actually matters at the end of the day. 
 
-It's about finding those people you click into like a puzzle piece, and working every day to make each other better. It’s about _really_ listening. 
+Or at the end of a life.
 
-It’s about spending more time on things you care about and less on things you don’t. Choosing work that has a meaningful and positive influence on the world. Honoring and thanking the people who have shaped who you are. Telling them you love them.
+For me, right now, it’s about being open and honest about the impact of suicide. It's about asking for help when I need it, and moving past the shame of feeling so much or wanting to share it. It’s about remembering Matthew and finding ways I can {% externalLink 'support others', 'https://www.jedfoundation.org/' %} who struggle with mental illness.
 
-It’s about standing up, together, for what’s right. 
+It's about challenging myself to engage in the fight against injustice that is so apparent in our world, even when it's hard. Especially when it's hard.
 
-For me, now, it’s about being open and honest about the impact of suicide. It’s about remembering Matthew and finding ways I can {% externalLink 'support people', 'https://www.jedfoundation.org/' %} who struggle with mental illness. It's about challenging myself to engage in the fight against injustice that is so apparent in our world.
+It’s also about allowing myself - forcing myself, even - to take the time and space to feel each painful feeling as it comes up. Because I have to. There isn't another choice.
 
-It’s also about allowing myself - forcing myself, even - to take the time and space to feel each painful feeling as it comes up because I have to. There isn't another choice.
-
-But in the end, even when staring down what feels like insurmountable anger and pain and despair, it's about knowing that we are not alone.
+When staring down the barrel of what feels like insurmountable anger and pain and despair, seems it all comes down to this: knowing (and trusting) that we are not alone.
 
 https://open.spotify.com/track/2Z8nmDARYuDDfsIylkhZT2?si=cl0OmQCtTy63RU7xyqoX2A
 
+https://open.spotify.com/track/2na2paKLoPieSDyIcfj29u?si=0l1v2yt7Qa6Za3jWzhdXGg
+
+> Well, I guess that it's typical
+To cling to memories you'll never get back again
+And to sort through old photographs
+Of a summer long ago
+Or a friend that you used to know
+And there below his frozen face
+You wrote the name and that ancient date
+And you can't believe that he's really gone
+When all that's left is a fucking song
+And I'm sorry about the phone call and waking you
+I know that it is late
+But thank you for talking, because I needed to
+Some things just can't wait
+
 _In memory of Matthew Glenn Driver_<br />
 _September 13, 1987 - May 22, 2020_
+
+If you are struggling with thoughts of suicide, please reach out. **In the U.S., help is available 24/7 by calling the National Suicide Prevention Lifeline at 1-800-273-8255.**
 
