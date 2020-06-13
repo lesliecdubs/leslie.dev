@@ -156,6 +156,12 @@ body {
     .container__content {
       padding-top: 0;
     }
+
+    + section {
+      .container__content {
+        padding-top: 0;
+      }
+    }
   }
 }
 
@@ -211,6 +217,9 @@ h2 {
   position: relative;
 
   svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 825px;
     position: relative;
     z-index: 1;
   }
@@ -270,6 +279,7 @@ p {
 
   @media (min-width: $mid) {
     font-size: 1.1em;
+    line-height: 1.9;
     margin-bottom: 1.8em;
     margin-top: 1.5em;
   }
@@ -414,12 +424,14 @@ a:focus:not(.logo) {
   background: rgba(255, 251, 245, 0.75); /* $page-color */
   border-bottom: 1px solid rgba(56, 56, 56, 0.25);
   border-top: 6px solid $accent-color;
+  font-size: 0.85em;
   height: 2.75em;
   position: fixed;
   width: 100%;
   z-index: 9;
 
   @media (min-width: $mid) {
+    font-size: 1em;
     height: 3.5em;
   }
 
@@ -453,7 +465,6 @@ a:focus:not(.logo) {
   }
 
   a.logo--nav {
-    padding: 0.4em 0 0 0;
     width: 155px;
 
     @media (min-width: $mid) {
