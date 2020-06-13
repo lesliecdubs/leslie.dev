@@ -23,6 +23,10 @@
   width: 1px;
 }
 
+.no-break {
+  white-space: nowrap;
+}
+
 html {
   background-color: $accent-color;
 }
@@ -709,10 +713,14 @@ footer {
     margin-top: 2em;
 
     p {
-      font-size: 1.4em;
       border-left: 6px solid $accent-color;
+      font-size: 1.1em;
       margin: 0;
       padding-left: 0.75em;
+
+      @media (min-width: $mid) {
+        font-size: 1.4em;
+      }
     }
   }
 }
