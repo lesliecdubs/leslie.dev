@@ -21,9 +21,13 @@ He made me handmade cards with stickers and silly drawings, and I made him a scr
 
 We emailed each other constantly; I still have most of them (at least, the ones he sent after he encouraged me to switch from Netscape to Gmail). When I search my Gmail for his goofy old email address, I can easily end up on page 350 “of many.”
 
-We made each other mix CDs, most of which were 90% Bright Eyes; I realize now that doesn't really make ita mix CD, but what can you do. 
+We made each other mix CDs, most of which were 90% Bright Eyes; I realize now that doesn't really make it a mix CD, but what can you do. “Something Vague” was included on every single one.
 
-He gave me a ring. It wasn't a promise, he said.
+https://open.spotify.com/playlist/1GlwMfTOQzA0QtDGEbqMSi?si=qQ7v9rTQTbmSEOgvuTWsXg
+
+https://open.spotify.com/track/7eUVluJU03fnTuCcNC8ITH?si=BwpZitrxSYazIvVP7ZH2rA
+
+He gave me a ring.
 
 We experienced a lot of firsts together.
 
@@ -88,4 +92,9 @@ For me, now, it’s about being open and honest about the impact of suicide. It�
 It’s also about allowing myself - forcing myself, even - to take the time and space to feel every single painful feeling that’s coming up right now. 
 
 And knowing that, in the insurmountable face of anger and pain and grief, I am not alone.
+
+https://open.spotify.com/track/2Z8nmDARYuDDfsIylkhZT2?si=cl0OmQCtTy63RU7xyqoX2A
+
+_In memory of Matthew Glenn Driver_<br />
+_September 13, 1987 - May 22, 2020_
 
