@@ -1,5 +1,5 @@
 ---
-date: 2020-05-04
+date: 2020-05-05
 title: 🏆 Awards
 id: awards
 hasSeparator: true

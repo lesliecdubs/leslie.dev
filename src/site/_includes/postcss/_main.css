@@ -23,6 +23,10 @@
   width: 1px;
 }
 
+.no-break {
+  white-space: nowrap;
+}
+
 html {
   background-color: $accent-color;
 }
@@ -31,7 +35,7 @@ body {
   background: $page-color;
   border-bottom: 6px solid $accent-color;
   color: mix($text-color, $page-color, 90%);
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.8;
@@ -51,7 +55,8 @@ body {
   width: 90%;
 
   @media (min-width: $mid) {
-    max-width: 768px;
+    max-width: 900px;
+    width: 92%;
   }
 }
 
@@ -74,7 +79,7 @@ body {
 
 .header__content {
   margin-bottom: 40px;
-  padding-top: 60px;
+  padding-top: 35px;
   position: relative;
   z-index: 1;
 
@@ -119,7 +124,7 @@ body {
     left: 0;
     padding-bottom: 3.5em;
     position: absolute;
-    top: -45px;
+    top: -25px;
     transform-origin: top left;
     transform: skewY(-1deg);
     width: 100%;
@@ -144,12 +149,22 @@ body {
   }
 
   .container {
-    margin-top: 90px;
+    margin-top: 50px;
+
+    @media (min-width: $mid) {
+      margin-top: 90px;
+    }
   }
 
   + section {
     .container__content {
       padding-top: 0;
+    }
+
+    + section {
+      .container__content {
+        padding-top: 0;
+      }
     }
   }
 }
@@ -163,11 +178,12 @@ body {
 h1,
 h2,
 h3 {
-  color: $text-color;
-  font-weight: 600;
+  color: $accent-color;
+  font-weight: 700;
   line-height: 1;
   margin-bottom: 0.2em;
   margin-top: 2em;
+  text-shadow: 2px 2px 0 #ffc8b8;
 }
 
 h1 {
@@ -183,6 +199,10 @@ h1 {
   @media (min-width: $wide) {
     font-size: 6em;
   }
+}
+
+h2 {
+  font-size: 2em;
 }
 
 [data-scroll-point] {
@@ -201,6 +221,9 @@ h1 {
   position: relative;
 
   svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 825px;
     position: relative;
     z-index: 1;
   }
@@ -214,7 +237,7 @@ h1 {
     position: absolute;
     top: 0;
     transform: translateX(-40%);
-    width: 140%;
+    width: 100%;
   }
 }
 
@@ -251,7 +274,7 @@ p {
 }
 
 .subtitle {
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 1.8;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -260,6 +283,7 @@ p {
 
   @media (min-width: $mid) {
     font-size: 1.1em;
+    line-height: 1.9;
     margin-bottom: 1.8em;
     margin-top: 1.5em;
   }
@@ -302,6 +326,16 @@ p {
       color: $accent-color;
     }
   }
+
+  svg {
+    height: 18px;
+    width: 18px;
+
+    @media (min-width: $mid) {
+      height: 24px;
+      width: 24px;
+    }
+  }
 }
 
 .headshot {
@@ -337,7 +371,7 @@ ol {
 a:link:not(.link--naked),
 a:visited:not(.link--naked) {
   color: $text-color;
-  display: inline-block;
+  display: inline;
   padding: 0 2px;
   text-decoration-color: $accent-color;
   text-decoration-thickness: .1em;
@@ -392,12 +426,18 @@ a:focus:not(.logo) {
 .nav {
   backdrop-filter: saturate(170%) blur(4px);
   background: rgba(255, 251, 245, 0.75); /* $page-color */
-  border-top: 6px solid $accent-color;
   border-bottom: 1px solid rgba(56, 56, 56, 0.25);
-  height: 3.5em;
+  border-top: 6px solid $accent-color;
+  font-size: 0.85em;
+  height: 2.75em;
   position: fixed;
   width: 100%;
   z-index: 9;
+
+  @media (min-width: $mid) {
+    font-size: 1em;
+    height: 3.5em;
+  }
 
   li {
     align-items: center;
@@ -428,9 +468,22 @@ a:focus:not(.logo) {
     }
   }
 
+  a.logo--nav {
+    width: 155px;
+
+    @media (min-width: $mid) {
+      margin-left: -1em;
+      width: 240px;
+    }
+  }
+
   .nav--emoji {
-    display: inline-block;
-    transition: transform 0.15s;
+    display: none;
+
+    @media (min-width: $mid) {
+      display: inline-block;
+      transition: transform 0.15s;
+    }
   }
 
   a:hover,
@@ -452,6 +505,31 @@ a:focus:not(.logo) {
     color: mix($text-color, $accent-color, 60%);
     display: block;
     font-size: 0.7em;
+  }
+
+  .social-links {
+    display: flex;
+    margin-bottom: 0;
+    opacity: 0.75;
+
+    a:link, 
+    a:visited {
+      margin: 0 0.3em;
+
+      @media (min-width: $mid) {
+        margin: 0 0.5em;
+      }
+    }
+
+    svg {
+      height: 18px;
+      width: 18px;
+
+      @media (min-width: $mid) {
+        height: 24px;
+        width: 24px;
+      }
+    }
   }
 }
 
@@ -477,6 +555,7 @@ code {
 .date {
   font-size: 0.8em;
   font-style: italic;
+  margin-top: 8px;
 }
 
 main {
@@ -510,10 +589,11 @@ footer {
 
 .footer {
   color: $text-color;
-  margin-top: 90px;
+  margin-top: 35px;
   padding-top: 50px;
 
   @media (min-width: $mid) {
+    margin-top: 80px;
     padding-top: 70px;
   }
 
@@ -521,10 +601,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
     max-width: 90%;
-
-    @media (min-width: $mid) {
-      max-width: 100%;
-    }
   }
 
   br {
@@ -540,6 +616,111 @@ footer {
 
     @media (min-width: $mid) {
       content: none;
+    }
+  }
+}
+
+.post {
+  .skewed {
+    padding-bottom: 2.5em;
+
+    @media (min-width: $mid) {
+      padding-bottom: 5.5em;
+    }
+  }
+
+  .date {
+    font-size: 1em;
+    font-style: normal;
+    margin-top: 14px;
+
+    @media (min-width: $mid) {
+      margin-top: 8px;
+    }
+  }
+
+  .separator {
+    margin: 3em 0 7em;
+
+    @media (min-width: $mid) {
+      margin: 6em 0 11em;
+    }
+  }
+
+  .separator--alt {
+    margin-top: 4em;
+
+    @media (min-width: $mid) {
+      margin: 5em 0 11em;
+    }
+  }
+
+  a:link:not(.link--naked),
+  a:visited:not(.link--naked) {
+    display: inline;
+
+    @media (min-width: $mid) {
+      display: inline-block;
+    }
+  }
+
+  h1 {
+    margin-top: 0;
+    text-shadow: 2px 2px 0 white, 4px 4px 0 $accent-light;
+
+    @media (min-width: $mid) {
+      margin-top: 0.2em;
+      text-shadow: 3px 3px 0 white, 6px 6px 0 $accent-light;
+    }
+  }
+
+  p { 
+    @media (min-width: $mid) {
+      font-size: 1.25rem;
+    }
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  img { width: 100%; }
+}
+
+.post__content {
+  padding: 1.25em 0 0.5em;
+
+  @media (min-width: $mid) {
+    padding-top: 2.5em;
+  }
+
+  .eleventy-plugin-embed-spotify,
+  p,
+  blockquote {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 90%;
+
+    @media (min-width: $mid) {
+      max-width: 900px;
+    }
+  }
+
+  blockquote {
+    font-style: italic;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+    p {
+      border-left: 6px solid $accent-color;
+      font-size: 1.1em;
+      margin: 0;
+      padding-left: 0.75em;
+
+      @media (min-width: $mid) {
+        font-size: 1.4em;
+      }
     }
   }
 }
