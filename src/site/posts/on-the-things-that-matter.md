@@ -45,7 +45,9 @@ The last time we talked was a month before he died. He seemed to be doing well, 
 
 I had told him a few months back that {% externalLink 'Bright Eyes was putting out a new album', 'https://www.loudersound.com/features/bright-eyes-reunion-welcoming-back-the-band-who-helped-us-survive-the-2000s' %} after a long hiatus, and he messaged me to see if I’d heard their latest song. 
 
-I listened to it, and then sent him a link to {% externalLink 'this sadly hopeful Matt Hires song', 'https://open.spotify.com/track/1AZ3kCJfnyJt5O3broFxAD?si=zMBDiyQXQ1y-bhm4saWWgA' %} that reminded me a bit of early Conor Oberst on “Fevers and Mirrors.” 
+I listened to it, and then sent him a link to this sadly hopeful Matt Hires song that reminded me a bit of early Conor Oberst on “Fevers and Mirrors.” 
+
+https://open.spotify.com/track/1AZ3kCJfnyJt5O3broFxAD?si=zMBDiyQXQ1y-bhm4saWWgA
 
 The song is about death, but also about life being what you make it.
 

@@ -1,6 +1,6 @@
 
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-
+const embedSpotify = require("eleventy-plugin-embed-spotify");
 
 module.exports = function(config) {
 
@@ -17,6 +17,12 @@ module.exports = function(config) {
 
   // add support for syntax highlighting
   config.addPlugin(syntaxHighlight);
+
+  // add support for inline Spotify embeds
+  config.addPlugin(embedSpotify, {
+    height: '80',
+    width: '100%'
+  });
 
   // minify the html output
   config.addTransform("htmlmin", require("./src/utils/minify-html.js"));

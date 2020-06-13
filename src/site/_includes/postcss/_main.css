@@ -666,6 +666,7 @@ footer {
     padding-top: 2.5em;
   }
 
+  .eleventy-plugin-embed-spotify,
   p,
   blockquote {
     margin-left: auto;
