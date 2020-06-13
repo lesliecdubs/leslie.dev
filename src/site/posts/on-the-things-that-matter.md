@@ -5,13 +5,13 @@ date: 2020-06-12
 
 I found out at the beginning of the month that my high school boyfriend {% externalLink 'Matthew Driver', 'https://www.legendsfuneralhome.com/obituary/Matthew-Driver' %} died by suicide on May 22nd.
 
-We were very close as teenagers, and a large part of our bond was wrapped up in our shared experiences of depression, self-harm, and suicidal ideation. At an age when it’s not unusual to feel misunderstood, we found a deep connection to what felt like the darkest parts of each other.
+As teenagers, our relationship had grown out of our shared experiences of depression and self-harm. At an age when it’s not unusual to feel misunderstood, we found a deep connection to what felt like the darkest parts of each other.
+
+But we also had fun together.
 
 ![Matthew and Leslie on a swingset at the park](/images/posts/on-the-things-that-matter/swingset.jpg)
 
-We also had fun together. 
-
-He gave me the silliest nicknames, a few of which I’m not sure I’ll ever escape. We drove around in his SUV listening to Bright Eyes; we shared queso at Taco Cabana and made tamales with his family and I ate the pancakes he made me in his childhood kitchen. 
+He gave me the silliest nicknames, a few of which I’m not sure I’ll ever escape. We drove around in his SUV listening to Bright Eyes; we shared queso at Taco Cabana and made tamales with his family and I ate the pancakes he made for me in his childhood kitchen. 
 
 I dragged him to school dances; he even smiled in some of the pictures I took, not something he normally did. We watched “The Exorcist” and “Return of the Living Dead” more times than I can count. We were both prolific LifeJournal posters who commented daily on each other's work.
 
