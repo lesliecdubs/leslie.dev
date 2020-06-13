@@ -10,7 +10,7 @@ templateEngineOverride: njk, md
     <div class="header__content container">
       <h1>{{ title }}</h1>
       <p class="date">
-        ✍️ <time datetime="{{ date }}">{{ date | dateDisplay("LLLL d, y") }}</time>
+        ✍️ <time datetime="{{ date }}">{{ date | dateDisplay("cccc, LLLL d, y") }}</time>
       </p>
     </div>
   </header>

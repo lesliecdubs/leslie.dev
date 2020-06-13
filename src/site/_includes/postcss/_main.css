@@ -578,7 +578,7 @@ footer {
   padding-top: 50px;
 
   @media (min-width: $mid) {
-    margin-top: 60px;
+    margin-top: 80px;
     padding-top: 70px;
   }
 
@@ -610,7 +610,7 @@ footer {
     padding-bottom: 2.5em;
 
     @media (min-width: $mid) {
-      padding-bottom: 4.5em;
+      padding-bottom: 5.5em;
     }
   }
 
