@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "poppinsbold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/poppins-bold-webfont.woff2") format("woff2"), url("/fonts/poppins-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "poppinsitalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/poppins-italic-webfont.woff2") format("woff2"), url("/fonts/poppins-italic-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "poppinslightitalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/poppins-lightitalic-webfont.woff2") format("woff2"), url("/fonts/poppins-lightitalic-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "poppinslight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/poppins-light-webfont.woff2") format("woff2"), url("/fonts/poppins-light-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/poppins-regular-webfont.woff2") format("woff2"), url("/fonts/poppins-regular-webfont.woff") format("woff");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +70,7 @@ body {
   background: $page-color;
   border-bottom: 6px solid $accent-color;
   color: mix($text-color, $page-color, 90%);
-  font-family: 'Poppins', sans-serif;
+  font-family: "poppinslight", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.8;
@@ -175,11 +210,15 @@ body {
   }
 }
 
+strong {
+  font-family: "poppinsregular", sans-serif;
+}
+
 h1,
 h2,
 h3 {
   color: $accent-color;
-  font-weight: 700;
+  font-family: "poppinsbold", sans-serif;
   line-height: 1;
   margin-bottom: 0.2em;
   margin-top: 2em;
@@ -284,8 +323,8 @@ p {
   @media (min-width: $mid) {
     font-size: 1.1em;
     line-height: 1.9;
-    margin-bottom: 1.8em;
-    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-top: 1.6em;
   }
 
   br {
@@ -389,7 +428,7 @@ a:visited:not(.link--naked) {
   &::before {
     @media (min-width: $mid) {
       background: $accent-color;
-      bottom: 3px;
+      bottom: 5px;
       content: "";
       left: 0;
       position: absolute;
@@ -459,7 +498,7 @@ a:focus:not(.logo) {
     @media (min-width: $mid) {
       line-height: inherit;
       padding-bottom: 0.8em;
-      padding-top: 0.8em;
+      padding-top: 1em;
       text-align: left;
     }
 
@@ -622,7 +661,7 @@ footer {
 
 .post {
   .skewed {
-    padding-bottom: 2.5em;
+    padding-bottom: 2em;
 
     @media (min-width: $mid) {
       padding-bottom: 5.5em;
@@ -665,6 +704,7 @@ footer {
   }
 
   h1 {
+    margin-bottom: 0;
     margin-top: 0;
     text-shadow: 2px 2px 0 white, 4px 4px 0 $accent-light;
 
@@ -678,10 +718,6 @@ footer {
     @media (min-width: $mid) {
       font-size: 1.25rem;
     }
-  }
-
-  strong {
-    font-weight: 500;
   }
 
   img { width: 100%; }
@@ -707,7 +743,12 @@ footer {
     }
   }
 
+  strong {
+    font-family: "poppinsregular", sans-serif;
+  }
+
   blockquote {
+    font-family: "poppinslightitalic", sans-serif;
     font-style: italic;
     margin-bottom: 2em;
     margin-top: 2em;
@@ -720,6 +761,10 @@ footer {
 
       @media (min-width: $mid) {
         font-size: 1.4em;
+      }
+
+      strong {
+        font-family: "poppinsitalic", sans-serif;
       }
     }
   }
