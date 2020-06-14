@@ -27,7 +27,7 @@ He made handmade cards for me with stickers and silly drawings, and I made him a
 
 We emailed each other constantly, especially after he coerced me into switching from Netscape to Gmail for more storage space. When I search my inbox for his goofy old email address (rawrimazombie!), I can easily end up on page 350 “of many.”
 
-We made each other mix CDs where 75% of the songs were usually Bright Eyes. “Something Vague” was our favorite song; it was included on every single mix.
+We made each other mix CDs where 75% of the songs were Bright Eyes. “Something Vague” was our favorite; it was included on every single mix.
 
 https://open.spotify.com/playlist/1GlwMfTOQzA0QtDGEbqMSi?si=qQ7v9rTQTbmSEOgvuTWsXg
 
@@ -105,7 +105,7 @@ Kate's words have also reminded me what actually matters at the end of the day. 
 
 For me, right now, it’s about being open and honest about the impact of suicide. It's about asking for help when I need it, and moving past the shame of feeling so much or wanting to share it. It’s about remembering Matthew and finding ways I can {% externalLink 'support others', 'https://www.jedfoundation.org/' %} who struggle with mental illness.
 
-It's about challenging myself to engage in the fight against injustice that is so apparent in our world, even when it's hard. Especially when it's hard.
+It's about challenging myself to engage in the fight against injustice that is so apparent in our world, even when I've been complicit in it, and even when it's hard. Especially when it's hard.
 
 It’s also about allowing myself - forcing myself, even - to take the time and space to feel each painful feeling as it comes up. Because I have to. Because there isn't another choice.
 
