@@ -674,9 +674,7 @@ footer {
     }
   }
 
-  p { 
-    orphans: 2;
-    
+  p {     
     @media (min-width: $mid) {
       font-size: 1.25rem;
     }
