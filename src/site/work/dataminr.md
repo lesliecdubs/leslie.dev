@@ -1,6 +1,6 @@
 ---
 title: Dataminr
-url: https://www.dataminr.com/
+url: https://web.archive.org/web/20190815044639/https://www.dataminr.com/
 date: 2018-01
 company: Canvas United
 ---
