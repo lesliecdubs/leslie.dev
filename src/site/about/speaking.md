@@ -9,8 +9,8 @@ I spend most of my time building, but every once in a while I say things.
 
   - 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/270028353/' %}, Apr 2020: “Evolution of Flight: Phased rollout on the Jamstack”
   - 🎤 {% externalLink 'Concatenate Conf', 'https://www.concatenate.dev/schedule/#workshops' %}, Oct 2019: “Spreading the Jam”
-  - 🎧 {% externalLink 'Full Stack Radio', 'http://www.fullstackradio.com/124' %}: “Designing the User Interface at Netlify” with {% externalLink 'Rafael Conde', 'https://rafaelconde.net/' %}
   - 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/pbbdwnyzgbmb/' %}, Apr 2019: “Spreading the Jam”
+  - 🎧 {% externalLink 'Full Stack Radio (Guest)', 'http://www.fullstackradio.com/124' %}: “Designing the User Interface at Netlify” with {% externalLink 'Rafael Conde', 'https://rafaelconde.net/' %}
   - 🎧 {% externalLink 'React Round Up 066 (Guest)', 'https://devchat.tv/react-round-up/rru-066-accessibility-is-not-a-%E2%80%9Creact-problem%E2%80%9D-with-leslie-cohn-wein/' %}: “Accessibility is not a React Problem”
   - 🎧 {% externalLink 'React Round Up 068 (Panelist)', 'https://devchat.tv/react-round-up/rru-068-design-systems-with-varya-stepanova/' %}: “Design Systems” with Varya Stepanova
   - 🎧 {% externalLink 'React Round Up 070 (Panelist)', 'https://devchat.tv/react-round-up/rru-070-drawing-the-line-between-3rd-party-and-custom-code-with-glenn-reyes/' %}: “Third Party vs Custom Code” with Glenn Reyes
