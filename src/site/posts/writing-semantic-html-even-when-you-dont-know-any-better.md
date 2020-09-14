@@ -1,5 +1,5 @@
 ---
-title: "Writing semantic HTML even when you don't know any better"
+title: "Writing semantic HTML even when you don't know any better: progress vs meter"
 date: 2020-09-13
 description: There are something like 110 unique tags in HTML5. How can you figure out which semantic element to use when you don't even know what's available to you? Let's take a look at a real-world example.
 ogimage: https://leslie.dev/images/posts/writing-semantic-html-even-when-you-dont-know-any-better/og.jpg
