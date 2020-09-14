@@ -20,7 +20,7 @@ The design team at Netlify recently passed off a new Figma component for impleme
 I started by making a quick list of the requirements. The component should have:
 
 - the ability to act like a link if an `href` is passed
-- a status bar to indicate current usage
+- a status bar to indicate current usage, which looked a lot like the `<progress>` element to me
 - a numeric `value` and `max` limit
 - the ability to handle different units (such as money, file size, etc.)
 - styles that match the mockup, including hover and focus states
@@ -40,7 +40,9 @@ Narrowing in on the link and status bar reqs, I wrote three lines of markup:
 ```
 <progress value="218" max="400">54%</progress>
 
-When I write new HTML, I ask myself: "Does this markup make sense in plain English?" This is, after all, the essence of what the word **semantic** means: the "correct interpretation of the meaning of a word" (source: {% externalLink 'dictionary.com', 'https://www.dictionary.com/browse/semantics' %}). In most cases, we should be able to "translate" our markup into an intelligible sentence.
+Why did I use `<progress>`? First, because I knew it existed, and second, because the default styles for `<progress>` look _almost exactly like_ the design mockup I was given.
+
+But when I write new HTML, I try to ask myself: "Does this markup make sense in plain English?" This is, after all, the essence of what the word **semantic** means: the "correct interpretation of the meaning of a word" (source: {% externalLink 'dictionary.com', 'https://www.dictionary.com/browse/semantics' %}). In most cases, we should be able to "translate" our markup into an intelligible sentence.
 
 So: "$218 used is progress toward a $400 budget."
 
