@@ -411,6 +411,12 @@ a:focus:not(.logo) {
     color: white;
   }
 
+  code {
+    @media (min-width: $mid) {
+      color: white;
+    }
+  }
+
   &::before {
     transform: scaleY(0.9);
   }
@@ -541,14 +547,16 @@ a:focus:not(.logo) {
 }
 
 code {
-  background-color: mix($text-color, $accent-color, 80%);
+  background-color: none;
   border-radius: 4px;
-  color: rgb(42, 65, 77);
+  color: #272822;
   font-size: 0.8em;
   padding-bottom: 4px;
   padding-left: 6px;
   padding-right: 6px;
   padding-top: 4px;
+  transition-duration: 0.2s;
+  transition-property: color;
   white-space: nowrap;
 }
 
@@ -669,14 +677,28 @@ footer {
     text-shadow: 2px 2px 0 white, 4px 4px 0 $accent-light;
 
     @media (min-width: $mid) {
+      font-size: 4.2rem;
       margin-top: 0.2em;
-      text-shadow: 3px 3px 0 white, 6px 6px 0 $accent-light;
+      text-shadow: 2px 2px 0 white, 4px 4px 0 $accent-light;
+    }
+  }
+
+  h2 {
+    @media (min-width: $mid) {
+      font-size: 1.8em;
     }
   }
 
   p {     
     @media (min-width: $mid) {
       font-size: 1.25rem;
+    }
+  }
+
+  code {
+    @media (min-width: $mid) {
+      font-size: 1em;
+      padding: 0 4px;
     }
   }
 
@@ -694,9 +716,24 @@ footer {
     padding-top: 2.5em;
   }
 
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: left;
+  }
+
   .eleventy-plugin-embed-spotify,
+  li,
   p,
-  blockquote {
+  blockquote,
+  pre[class*="language-"],
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -705,6 +742,11 @@ footer {
     @media (min-width: $mid) {
       max-width: 900px;
     }
+  }
+
+  ol,
+  ul {
+    padding-left: 45px;
   }
 
   blockquote {
@@ -720,6 +762,16 @@ footer {
 
       @media (min-width: $mid) {
         font-size: 1.4em;
+      }
+    }
+  }
+
+  .post__half {
+    img {
+      @media (min-width: $mid) {
+        float: right;
+        margin-left: 2em;
+        max-width: 45%;
       }
     }
   }
