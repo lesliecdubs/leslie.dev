@@ -6,4 +6,5 @@ company: IBM IX
 tech: custom SVG animation
 video: xenoblade-chronicles-x.mp4
 image: xenoblade-chronicles-x.png
+permalink: false
 ---

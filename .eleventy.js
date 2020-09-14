@@ -23,7 +23,7 @@ module.exports = function(config) {
   });
 
   // minify the html output
-  config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
+  // config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
 
   // compress and combine js files
   config.addFilter("jsmin", function(code) {

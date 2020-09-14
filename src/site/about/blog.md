@@ -2,6 +2,7 @@
 date: 2020-05-04
 title: ✍️ Latest Posts
 id: blog
+permalink: false
 ---
 
 Sometimes I write about tech and sometimes I don't. Proceed with... awareness.

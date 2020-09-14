@@ -3,6 +3,7 @@ date: 2020-05-02
 title: 🎤 Speaking
 id: speaking
 hasSeparator: true
+permalink: false
 ---
 
 I spend most of my time building, but every once in a while I say things.
