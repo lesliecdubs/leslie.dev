@@ -1,5 +1,6 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const embedSpotify = require("eleventy-plugin-embed-spotify");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(config) {
 
@@ -21,6 +22,9 @@ module.exports = function(config) {
     height: '80',
     width: '100%'
   });
+  
+  // add support for rss feed
+  config.addPlugin(pluginRss);
 
   // minify the html output
   // config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
