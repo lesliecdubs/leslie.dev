@@ -11,7 +11,7 @@ So, how can you figure out which {% externalLink 'semantic element', 'https://ww
 
 ## Define the component requirements
 
-The design team at my job recently passed off a new Figma component for implementation in React. Looks pretty straightforward to me!
+The design team at Netlify recently passed off a new Figma component for implementation in React. Looks pretty straightforward to me!
 
 <p class="post__half">
 <img src="/images/posts/writing-semantic-html-even-when-you-dont-know-any-better/metric-widget.png" alt="Screenshot: UI widget with a status bar, showing $218 of $400 spent on groceries"  />
@@ -19,18 +19,19 @@ The design team at my job recently passed off a new Figma component for implemen
 
 I started by making a quick list of the requirements. The component should have:
 
-- the ability to act like a link, if an `href` is passed
+- the ability to act like a link if an `href` is passed
 - a status bar to indicate current usage
-- a numeric `value` and a numeric `max` limit
+- a numeric `value` and `max` limit
 - the ability to handle different units (such as money, file size, etc.)
-- styles that match the mockup
-- styles for hover and focus states
+- styles that match the mockup, including hover and focus states
 
 <div class="separator"></div>
 
 ## Ask: "Does my markup make sense in plain English?"
 
-Firing up VS Code, I wrote some simple markup for the wrapper link and status bar:
+Knowing the requirements can help us translate the component into code. 
+
+Narrowing in on the link and status bar reqs, I wrote three lines of markup:
 
 ```html
 <a href="http://leslie.dev">
@@ -39,39 +40,37 @@ Firing up VS Code, I wrote some simple markup for the wrapper link and status ba
 ```
 <progress value="218" max="400">54%</progress>
 
-Whenever I write new HTML, I ask myself: "Does this markup make sense in plain English?" This is, after all, the essence of what the word **semantic** means: the "correct interpretation of the meaning of a word" (source: {% externalLink 'dictionary.com', 'https://www.dictionary.com/browse/semantics' %}). In most cases, we should be able to "translate" our markup into an intelligible sentence.
+When I write new HTML, I ask myself: "Does this markup make sense in plain English?" This is, after all, the essence of what the word **semantic** means: the "correct interpretation of the meaning of a word" (source: {% externalLink 'dictionary.com', 'https://www.dictionary.com/browse/semantics' %}). In most cases, we should be able to "translate" our markup into an intelligible sentence.
 
 So: "$218 used is progress toward a $400 budget."
 
-Not quite right, huh? It would probably make more sense to consider that $218 spent as "money usage," not "money progress."
+Not quite right, huh? It would probably make more sense to call this "money usage," not "money progress."
 
 **Rewording markup in plain English can help make semantic discrepancies more obvious.** Checking {% externalLink 'the MDN docs', 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress' %} also provides some clarity:
 
 > The HTML `<progress>` element displays an indicator showing the completion progress of a task
 
-Case closed! We're definitely not showing the completion progress of a task when we're displaying the amount of money spent in a category. We shouldn't use `<progress>` for this component.
+We're definitely not showing the completion progress of a task here. Case closed! We shouldn't use `<progress>` for this component.
 
 <div class="separator separator--alt"></div>
 
 ## Follow the docs
 
-So, what element do we use instead? 
+So, what element should we use instead? 
 
-Lucky for us, the MDN documentation is great at giving hints. If we keep reading the docs about `<progress>`, we'll come across a note under {% externalLink 'the "Attributes" heading', 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress#Attrributes' %} that mentions the `<meter>` element. Following the link to `<meter>`, we find out:
+Lucky for us, MDN is great at giving hints. If we keep reading the docs about `<progress>`, we'll come across a note under {% externalLink 'the "Attributes" heading', 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress#Attrributes' %} that mentions the related `<meter>` element:
 
 > The HTML `<meter>` element represents either a scalar value within a known range or a fractional value
 
 To steal a catchphrase from former Netlify designer {% externalLink 'Rafa Conde', 'https://rafa.design/' %}: 🛎️ Ding! 
 
-In our component, we want to communicate that $218 was used in relation to a maximum budget of $400. This is the element we want!
+We want to communicate that $218 was used in relation to a maximum budget of $400. This is the element we want!
 
 <div class="separator"></div>
 
 ## Keep learning: `<meter>` in context
 
 If it seems like we had to do a lot of work in order to make a one-word change in the final markup, you wouldn't be wrong.
-
-So why put all this effort in? 
 
 ```html
 <a href="http://leslie.dev">
@@ -80,13 +79,15 @@ So why put all this effort in?
 ```
 <meter value="218" max="400">$218/$400</meter>
 
+So why put all this effort in? 
+
 Well, besides the obvious {% externalLink 'accessibility wins', 'https://24ways.org/2017/accessibility-through-semantic-html/' %}, **using the proper semantic element can give us more functionality for free**. 
 
-In this case, `<meter>` has some special attributes baked in that `<progress>` does not. Along with  `min` and `max`, `<meter>` also supports `low` , `high`, and `optimum`. These attributes let us specify the bounds of the measured range, and we can even use them to hook into pseudo classes for custom styling.
+In this case, `<meter>` has some special attributes baked in that `<progress>` does not. Along with  `min` and `max`, `<meter>` also supports `low` , `high`, and `optimum`. These attributes let us specify the bounds of the measured range, and we can also use them to hook into pseudo classes for custom styling.
 
-This means we can control the color of our status bar based on the value. 
+This means we can control the color of our status bar based on the value!
 
-For example, since we're using the correct semantic element, we can now style the bar to be green when it's in the lower bound, blue in the optimum or expected range, and yellow as we near the limit of our budget.
+So now we can style the bar to be green when it's in the lower bound, blue in the optimum or expected range, and yellow as we near the limit of our budget.
 
 ```html
 <a href="http://leslie.dev">
@@ -97,7 +98,7 @@ For example, since we're using the correct semantic element, we can now style th
 
 CSS Tricks offers more {% externalLink 'tips for styling the `<meter>` element', 'https://css-tricks.com/html5-meter-element/' %}. 
 
-If you're interested in how I styled this particular component to match the mockup, {% externalLink 'let me know on Twitter', 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fleslie.dev%2Fposts%2Fwriting-semantic-html-even-when-you-dont-know-any-better%2F&via=lesliecdubs&text=Hey%20Leslie%2C%20I%20wanna%20know%20how%20you%20styled%20the%20%60%3Cmeter%3E%60%20element%21' %} and maybe I'll draft a follow-up (spoiler: applying rounded corners on `<meter>` is a trip!).
+If you're interested in how I styled this particular component to match the mockup, {% externalLink 'let me know on Twitter', 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fleslie.dev%2Fposts%2Fwriting-semantic-html-even-when-you-dont-know-any-better%2F&via=lesliecdubs&text=Hey%20Leslie%2C%20I%20wanna%20know%20how%20you%20styled%20the%20%60%3Cmeter%3E%60%20element%21' %} and maybe I'll draft a follow-up (spoiler: applying selective rounded corners to the different states of `<meter>` is a trip!).
 
 <div class="separator separator--alt"></div>
 
@@ -105,7 +106,6 @@ If you're interested in how I styled this particular component to match the mock
 
 When writing new markup:
 
-- Ask: "Does my markup make sense in plain English?" 
-- Rewording markup in plain English can help make semantic discrepancies more obvious
+- Ask: "Does my markup make sense in plain English?" Rewording markup in plain English can help make semantic discrepancies more obvious.
 - Read the MDN docs to confirm your usage
 - Leverage baked-in functionality for free
