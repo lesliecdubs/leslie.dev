@@ -2,7 +2,7 @@
 title: "Writing semantic HTML even when you don't know any better"
 date: 2020-09-13
 description: There are something like 110 unique tags in HTML5. How can you figure out which semantic element to use when you don't even know what's available to you? Let's take a look at a real-world example.
-ogimage: https://leslie.dev/images/posts/on-the-things-that-matter/swingset.jpg
+ogimage: https://leslie.dev/images/posts/writing-semantic-html-even-when-you-dont-know-any-better/og.jpg
 ---
 
 There are something like {% externalLink '110 unique tags in HTML5', 'http://html5doctor.com/element-index/' %}. Not exactly the easiest list to memorize, am I right? (Even for me, and I'm the kind of person whose {% externalLink 'desktop wallpaper', 'https://www.smashingmagazine.com/2015/05/desktop-wallpaper-calendars-june-2015/#periodic-table-of-html5-elements' %} shows a periodic table of HTML5 elements.)
@@ -14,7 +14,7 @@ So, how can you figure out which {% externalLink 'semantic element', 'https://ww
 The design team at my job recently passed off a new Figma component for implementation in React. Looks pretty straightforward to me!
 
 <p class="post__half">
-<img src="/images/posts/a-tale-of-two-elements/metric-widget.png" alt="Screenshot: UI widget with a status bar, showing $218 of $400 spent on groceries"  />
+<img src="/images/posts/writing-semantic-html-even-when-you-dont-know-any-better/metric-widget.png" alt="Screenshot: UI widget with a status bar, showing $218 of $400 spent on groceries"  />
 </p>
 
 I started by making a quick list of the requirements. The component should have:
