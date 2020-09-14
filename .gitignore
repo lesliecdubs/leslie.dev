@@ -4,6 +4,7 @@
 # build artefacts
 /dist
 /src/site/_includes/css
+/src/site/work/**
 
 # secrets and errors
 .env
