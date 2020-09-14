@@ -5,4 +5,5 @@ date: 2018-02
 company: Canvas United
 tech: React + Netlify
 # video: canvas-united.mp4
+permalink: false
 ---

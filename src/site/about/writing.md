@@ -2,6 +2,7 @@
 date: 2020-05-03
 title: ✏️ Writing & Interviews
 id: writing
+permalink: false
 ---
 
 Seeing my byline in CSS-Tricks was a lifelong goal, so I guess I can retire now?

@@ -2,6 +2,7 @@
 date: 2020-05-06
 title: 💻 Selected Work
 id: work
+permalink: false
 ---
 
 I’ve pushed some pixels. Here’s a super small selection.

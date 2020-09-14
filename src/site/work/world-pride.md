@@ -6,4 +6,5 @@ company: Canvas United
 video: worldpride.mp4
 image: worldpride.png
 tech: Gatsby + Contentful + Netlify
+permalink: false
 ---
