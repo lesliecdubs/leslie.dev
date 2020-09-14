@@ -454,7 +454,8 @@ a:focus:not(.logo) {
   a:link,
   a:visited {
     border-bottom-style: none;
-    color: mix($text-color, $accent-color, 80%);
+    color: $text-color;
+    /* color: mix($text-color, $accent-color, 80%); */
     display: inline-block;
     line-height: 1.5;
     margin-left: 0;
@@ -516,7 +517,6 @@ a:focus:not(.logo) {
   .social-links {
     display: flex;
     margin-bottom: 0;
-    opacity: 0.75;
 
     a:link, 
     a:visited {

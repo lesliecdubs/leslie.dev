@@ -4,7 +4,15 @@
 # build artefacts
 /dist
 /src/site/_includes/css
-/src/site/work/**
+/src/site/work/brooklyn-bowl.md
+/src/site/work/canvas-united.md
+/src/site/work/crunch-fitness.md
+/src/site/work/dataminr.md
+/src/site/work/hks-architects.md
+/src/site/work/jamstack-conf.md
+/src/site/work/netlify-docs.md
+/src/site/work/netlify-storybook.md
+/src/site/work/parker-palm-springs.md
 
 # secrets and errors
 .env
