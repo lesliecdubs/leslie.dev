@@ -4,6 +4,7 @@
 # build artefacts
 /dist
 /src/site/_includes/css
+/src/site/about/*
 /src/site/work/brooklyn-bowl.md
 /src/site/work/canvas-united.md
 /src/site/work/crunch-fitness.md
