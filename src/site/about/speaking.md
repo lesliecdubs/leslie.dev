@@ -8,6 +8,7 @@ permalink: false
 
 I spend most of my time building, but every once in a while I say things.
 
+  - 🎤 {% externalLink 'Jamstack Conf', 'https://www.youtube.com/playlist?list=PL58Wk5g77lF94tg-F3y5zRyDeLVhTDnTg' %}, Oct 2020: Q&A host with speakers {% externalLink 'Matt Biilmann', 'https://twitter.com/biilmann' %}, Rick Takes, & {% externalLink 'Angie Jones', 'https://twitter.com/Netlify/status/1313584845268738049' %}
   - 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/270028353/' %}, Apr 2020: “Evolution of Flight: Phased rollout on the Jamstack”
   - 🎤 {% externalLink 'Concatenate Conf', 'https://www.concatenate.dev/schedule/#workshops' %}, Oct 2019: “Spreading the Jam”
   - 🎤 {% externalLink 'ReactJS Dallas', 'https://www.meetup.com/ReactJSDallas/events/pbbdwnyzgbmb/' %}, Apr 2019: “Spreading the Jam”

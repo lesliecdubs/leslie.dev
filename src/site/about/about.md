@@ -10,7 +10,7 @@ permalink: false
 
 <p id="about" data-scroll-point>I’m a “front of the frontend” developer who loves the <a href="https://jamstack.org/" target="_blank" rel="noopener nofollow">Jamstack</a>, React, CSS (my favorite! 😍), and accessibility.</p>
 
-I’m a former panelist on the devchat.tv podcast React Round Up, and my agency work has been nominated for a Webby and 4x Awwwards. A site I developed in 2018 won the CommArts Interactive Award. I’ve also written for CSS Tricks.
+I’m a former panelist on the devchat.tv podcast <a href="https://devchat.tv/?s=Leslie+Cohn-Wein" target="_blank" rel="noopener nofollow">React Round Up</a>, and my agency work has been nominated for a Webby and 4x Awwwards. A site I developed in 2018 won the <a href="https://www.commarts.com/project/26022/the-parker-palm-springs" target="_blank" rel="noopener nofollow">CommArts Interactive Award</a>. I’ve also written for CSS Tricks.
 
 How did I get here? The first line of code I ever wrote was for my LiveJournal theme. I had a college internship building Drupal and WordPress sites for nonprofits; a few years later, I was developing <a href="https://web.archive.org/web/20150312155138/http://nesremix.nintendo.com/" target="_blank" rel="noopener nofollow">sites for Nintendo</a> at an NYC ad agency.
 

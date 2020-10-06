@@ -173,6 +173,11 @@ body {
   p:first-of-type {
     margin-top: 0;
   }
+
+  p:nth-of-type(n + 3) {
+    font-size: 1rem;
+    line-height: 1.95;
+  }
 }
 
 h1,
