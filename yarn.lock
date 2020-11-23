@@ -5624,10 +5624,10 @@ stylelint-config-standard@^20.0.0:
   dependencies:
     stylelint-config-recommended "^3.0.0"
 
-stylelint-declaration-strict-value@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.6.1.tgz#56fa08ea13bf260e76907d6e5908af2def0ff831"
-  integrity sha512-LjEipfXKVfbd3old1NUztwHSl4HvQigss2bcUd63QSEnFBwklXwpzPuakopbxa3eP9octCr1gxCcM3TM/MxGBg==
+stylelint-declaration-strict-value@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.7.0.tgz#82aece4903ac9ee779dde7f5d32ea86c33bc3588"
+  integrity sha512-+kQ+iB7U4Xdf/AC1+pHyNqArlobZ60W8jExBn2vyETBVFWZCeC+skK2jxWOeMWB2HkkyFDcfkPfN/l7dZDR62w==
   dependencies:
     css-values "^0.1.0"
     shortcss "^0.1.3"
