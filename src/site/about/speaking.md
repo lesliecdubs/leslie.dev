@@ -8,6 +8,7 @@ permalink: false
 
 I spend most of my time building, but every once in a while I say things.
 
+- 🎧 {% externalLink 'Remotely Interesting Podcast', 'https://remotelyinteresting.transistor.fm/episodes/015-web-accessibility-an-a11y-special-w-special-guests' %}, Web Accessibility: An a11y Special with Epic Guests
 - 🎤 {% externalLink 'Reactathon', 'https://www.reactathon.com/' %}, Dec 2020: Topic Table on Accessibility with {% externalLink 'Amberley Romo', 'https://twitter.com/amber1ey' %} & {% externalLink 'Hugues Tennier', 'https://twitter.com/huguestennier' %}
 - 🎧 {% externalLink 'Smashing Podcast', 'https://www.smashingmagazine.com/2020/11/smashing-podcast-episode-29/' %}: “How Does Netlify Dogfood The Jamstack?” with {% externalLink 'Drew McLellan', 'https://twitter.com/drewm' %}
 - 🎤 {% externalLink 'Jamstack Conf', 'https://www.youtube.com/playlist?list=PL58Wk5g77lF94tg-F3y5zRyDeLVhTDnTg' %}, Oct 2020: Q&A host with speakers {% externalLink 'Matt Biilmann', 'https://twitter.com/biilmann' %}, Rick Takes, & {% externalLink 'Angie Jones', 'https://twitter.com/Netlify/status/1313584845268738049' %}
