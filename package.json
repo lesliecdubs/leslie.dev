@@ -33,7 +33,7 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-declaration-strict-value": "^1.6.1",
     "uglify-js": "^3.6.0",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-rss": "^1.0.9",
