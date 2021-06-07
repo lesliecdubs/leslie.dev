@@ -27,7 +27,7 @@
     "postcss-color-mix": "^1.1.0",
     "postcss-comment": "^2.0.0",
     "postcss-import": "^14.0.2",
-    "postcss-mixins": "^7.0.3",
+    "postcss-mixins": "^8.1.0",
     "postcss-simple-vars": "^6.0.3",
     "precss": "^4.0.0",
     "stylelint-config-standard": "^22.0.0",
