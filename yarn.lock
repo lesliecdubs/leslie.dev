@@ -1586,10 +1586,10 @@ electron-to-chromium@^1.3.723:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.742.tgz#7223215acbbd3a5284962ebcb6df85d88b95f200"
   integrity sha512-ihL14knI9FikJmH2XUIDdZFWJxvr14rPSdOhJ7PpS27xbz8qmaRwCwyg/bmFwjWKmWK9QyamiCZVCvXm5CH//Q==
 
-eleventy-plugin-embed-spotify@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-spotify/-/eleventy-plugin-embed-spotify-1.2.0.tgz#17fe4c2d87fbd3a5a769fe4b6179c5a4b49d8097"
-  integrity sha512-9AU0rXchgX35H+sPwesrMRVRzbeTZgDugJo9X5BWPGgWJZp7XnXTI50lIBIxX7+T+MBh2EElAOhcZsNBL6dqfA==
+eleventy-plugin-embed-spotify@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-spotify/-/eleventy-plugin-embed-spotify-1.2.2.tgz#b78ffa38c70a9b2e9b1a9298a29d45ff34a9de5f"
+  integrity sha512-k/Se1RQ/rxJwHysaqP2SAjmRXN9iJOChNp7H+l7lFDFFQceIl/DFA4zTNEHLU5ydPKq5L8lWECB/3KAXTl2Ztw==
 
 emitter-mixin@0.0.3:
   version "0.0.3"
