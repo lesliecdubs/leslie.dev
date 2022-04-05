@@ -1341,9 +1341,9 @@ electron-to-chromium@^1.4.84:
   version "1.4.103"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.103.tgz#abfe376a4d70fa1e1b4b353b95df5d6dfd05da3a"
 
-eleventy-plugin-embed-spotify@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/eleventy-plugin-embed-spotify/-/eleventy-plugin-embed-spotify-1.2.0.tgz"
+eleventy-plugin-embed-spotify@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-spotify/-/eleventy-plugin-embed-spotify-1.2.3.tgz#0a90a195838776bef3a99a4aea06df83e21c0a45"
 
 emitter-mixin@0.0.3:
   version "0.0.3"
