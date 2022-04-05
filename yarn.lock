@@ -2302,13 +2302,13 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-luxon@^1.16.0:
-  version "1.16.0"
-  resolved "https://registry.npmjs.org/luxon/-/luxon-1.16.0.tgz"
-
 luxon@^1.24.1:
   version "1.25.0"
   resolved "https://registry.npmjs.org/luxon/-/luxon-1.25.0.tgz"
+
+luxon@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-2.3.1.tgz#f276b1b53fd9a740a60e666a541a7f6dbed4155a"
 
 map-cache@^0.2.0:
   version "0.2.2"
