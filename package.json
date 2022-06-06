@@ -19,7 +19,7 @@
     "eleventy-plugin-embed-spotify": "^1.2.3",
     "autoprefixer": "^10.4.7",
     "axios": "^0.27.2",
-    "cssnano": "^5.1.10",
+    "cssnano": "^5.1.11",
     "dotenv": "^16.0.1",
     "html-minifier": "^4.0.0",
     "luxon": "^2.4.0",
