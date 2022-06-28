@@ -2434,9 +2434,9 @@ postcss-minify-selectors@^5.2.1:
   dependencies:
     postcss-selector-parser "^6.0.5"
 
-postcss-mixins@^9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-mixins/-/postcss-mixins-9.0.2.tgz#098969dafd1b9a98e2973fde024bef9d2563f604"
+postcss-mixins@^9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/postcss-mixins/-/postcss-mixins-9.0.3.tgz#21a41d30fa53213642d000520237db82313d1a11"
   dependencies:
     fast-glob "^3.2.11"
     postcss-js "^4.0.0"
