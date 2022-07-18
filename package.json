@@ -31,7 +31,7 @@
     "postcss-simple-vars": "^6.0.3",
     "precss": "^4.0.0",
     "stylelint-config-standard": "^26.0.0",
-    "stylelint-declaration-strict-value": "^1.8.0",
+    "stylelint-declaration-strict-value": "^1.9.0",
     "uglify-js": "^3.16.2",
     "xml2js": "^0.4.23"
   },
