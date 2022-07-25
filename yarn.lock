@@ -3502,9 +3502,9 @@ uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
   resolved "https://registry.npmjs.org/uc.micro/-/uc.micro-1.0.6.tgz"
 
-uglify-js@^3.1.4, uglify-js@^3.16.2, uglify-js@^3.5.1:
-  version "3.16.2"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.16.2.tgz#0481e1dbeed343ad1c2ddf3c6d42e89b7a6d4def"
+uglify-js@^3.1.4, uglify-js@^3.16.3, uglify-js@^3.5.1:
+  version "3.16.3"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.16.3.tgz#94c7a63337ee31227a18d03b8a3041c210fd1f1d"
 
 uhyphen@^0.1.0:
   version "0.1.0"
