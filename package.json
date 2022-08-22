@@ -15,7 +15,7 @@
     "url": "https://github.com/lesliecdubs/leslie.dev"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^1.0.2",
     "eleventy-plugin-embed-spotify": "^1.2.4",
     "autoprefixer": "^10.4.8",
     "axios": "^0.27.2",
