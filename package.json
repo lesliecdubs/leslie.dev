@@ -20,7 +20,7 @@
     "autoprefixer": "^10.4.11",
     "axios": "^0.27.2",
     "cssnano": "^5.1.13",
-    "dotenv": "^16.0.1",
+    "dotenv": "^16.0.2",
     "html-minifier": "^4.0.0",
     "luxon": "^3.0.3",
     "postcss": "^8.4.16",
