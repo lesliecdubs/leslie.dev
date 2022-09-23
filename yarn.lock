@@ -2420,13 +2420,13 @@ postcss-minify-selectors@^5.2.1:
   dependencies:
     postcss-selector-parser "^6.0.5"
 
-postcss-mixins@^9.0.3:
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/postcss-mixins/-/postcss-mixins-9.0.3.tgz#21a41d30fa53213642d000520237db82313d1a11"
+postcss-mixins@^9.0.4:
+  version "9.0.4"
+  resolved "https://registry.yarnpkg.com/postcss-mixins/-/postcss-mixins-9.0.4.tgz#75cd3cdb619a7e08c4c51ebb094db5f6d65b3831"
   dependencies:
     fast-glob "^3.2.11"
     postcss-js "^4.0.0"
-    postcss-simple-vars "^6.0.3"
+    postcss-simple-vars "^7.0.0"
     sugarss "^4.0.1"
 
 postcss-nested@^4.1.0:
@@ -2644,6 +2644,10 @@ postcss-selector-parser@^6.0.10, postcss-selector-parser@^6.0.4, postcss-selecto
 postcss-simple-vars@^6.0.3:
   version "6.0.3"
   resolved "https://registry.npmjs.org/postcss-simple-vars/-/postcss-simple-vars-6.0.3.tgz"
+
+postcss-simple-vars@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-simple-vars/-/postcss-simple-vars-7.0.0.tgz#f1d10a979762aa4e7e3450a35a32885112893d1b"
 
 postcss-sorting@^7.0.1:
   version "7.0.1"
