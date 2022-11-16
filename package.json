@@ -28,7 +28,7 @@
     "postcss-comment": "^2.0.0",
     "postcss-import": "^15.0.0",
     "postcss-mixins": "^9.0.4",
-    "postcss-simple-vars": "^7.0.0",
+    "postcss-simple-vars": "^7.0.1",
     "precss": "^4.0.0",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-declaration-strict-value": "^1.9.1",
