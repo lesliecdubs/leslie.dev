@@ -39,7 +39,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "cross-env": "7.0.3",
-    "stylelint": "^14.15.0",
+    "stylelint": "^14.16.0",
     "stylelint-order": "^5.0.0"
   }
 }
