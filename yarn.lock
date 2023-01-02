@@ -3355,9 +3355,9 @@ stylelint-order@^5.0.0:
     postcss "^8.3.11"
     postcss-sorting "^7.0.1"
 
-stylelint@^14.16.0:
-  version "14.16.0"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.16.0.tgz#8e1a424f4b9852e59089f95de306734d70e5048b"
+stylelint@^14.16.1:
+  version "14.16.1"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.16.1.tgz#b911063530619a1bbe44c2b875fd8181ebdc742d"
   dependencies:
     "@csstools/selector-specificity" "^2.0.2"
     balanced-match "^2.0.0"
