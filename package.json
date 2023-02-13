@@ -40,6 +40,6 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "cross-env": "7.0.3",
     "stylelint": "^14.16.1",
-    "stylelint-order": "^5.0.0"
+    "stylelint-order": "^6.0.2"
   }
 }
