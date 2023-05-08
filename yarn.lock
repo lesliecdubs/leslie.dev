@@ -863,9 +863,9 @@ electron-to-chromium@^1.4.284:
   version "1.4.328"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.328.tgz#b4565ffa502542b561cea16086d6d9b916c7095a"
 
-eleventy-plugin-embed-spotify@^1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-spotify/-/eleventy-plugin-embed-spotify-1.2.6.tgz#4a1bb8ecf001033df45c08ff1de37ea5e3cbf6b6"
+eleventy-plugin-embed-spotify@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-spotify/-/eleventy-plugin-embed-spotify-1.2.7.tgz#fa91bd68c9b73c31d3c98f4dc2735dc7591b7832"
 
 emoji-regex@^8.0.0:
   version "8.0.0"
