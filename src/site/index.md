@@ -1,6 +1,6 @@
 ---
 title: Leslie Cohn-Wein builds stuff
-subtitle: Director of Design Engineering at <a href="http://www.github.com" target="_blank" rel="noopener nofollow">GitHub</a>, working remote from Dallas.<br />Previously engineering manager and frontend at <a href="http://www.netlify.com" target="_blank" rel="noopener nofollow">Netlify</a>, <a href="http://canvasunited.com" target="_blank" rel="noopener nofollow">Canvas United</a>, and IBM IX in NYC.<br/>Pronounced CONE🍦-wine🍷. She/her.
+subtitle: Staff Engineering Manager for the Primer Design System at <a href="http://www.github.com" target="_blank" rel="noopener nofollow">GitHub</a>, working remote from Dallas.<br />Previously engineering manager and frontend at <a href="http://www.netlify.com" target="_blank" rel="noopener nofollow">Netlify</a>, <a href="http://canvasunited.com" target="_blank" rel="noopener nofollow">Canvas United</a>, and IBM IX in NYC.<br/>Pronounced CONE🍦-wine🍷. She/her.
 layout: layouts/home.njk
 ---
 
