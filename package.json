@@ -26,7 +26,7 @@
     "postcss": "^8.4.32",
     "postcss-color-mix": "^1.1.0",
     "postcss-comment": "^2.0.0",
-    "postcss-import": "^15.1.0",
+    "postcss-import": "^16.0.0",
     "postcss-mixins": "^9.0.4",
     "postcss-simple-vars": "^7.0.1",
     "precss": "^4.0.0",
